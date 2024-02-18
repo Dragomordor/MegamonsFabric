@@ -21,10 +21,6 @@ import static git.dragomordor.megamons.util.megaspecies.MegaSpeciesUtil.getPreSp
 public class MegaDevolveEvent {
 
     public static void onPokemonHeldItemChange(Pokemon pokemon, ItemStack previousItemStack, ItemStack newItemStack) {
-        System.out.println("Held item changed!");
-        System.out.println("Pokemon: " + pokemon);
-        System.out.println("Previous Item: " + previousItemStack);
-        System.out.println("New Item: " + newItemStack);
         MegaDevolveCheck(pokemon);
     }
 
@@ -76,7 +72,7 @@ public class MegaDevolveEvent {
             pokemon.setSpecies(pokemonPreSpecies);
             String capitalizedSpeciesName = pokemonPreSpecies.getName().substring(0, 1).toUpperCase() + pokemonPreSpecies.getName().substring(1);
             if (player!=null) {
-                player.sendMessage(Text.of(capitalizedSpeciesName + " transformed into regular Form - Mega Stone Removed!"), true);
+                player.sendMessage(Text.translatable("message.megadevolveevent.stoneremoved",capitalizedSpeciesName),true);
                 player.playSound(CobblemonSounds.EVOLVING, SoundCategory.NEUTRAL, 1F, 0.1F);
             }
         }

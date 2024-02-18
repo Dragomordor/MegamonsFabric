@@ -97,8 +97,22 @@
   "block.megamons.anistarite_geode_block": "Anistarite",
   "block.megamons.anistarite_rough_geode_block": "Rough Anistarite",
 
-
   "itemgroup.megamons": "Megamons",
+
+
+  "message.pokemonuseitem.notapokemon": "Not a Pokémon",
+  "message.pokemonuseitem.notyourpokemon": "Not your Pokémon",
+
+  "message.megacuffitem.notamegastone": "Held Item is not Megastone",
+  "message.megacuffitem.megastonehasnopokemon": "Megastone has no associated Pokémon",
+  "message.megacuffitem.nomegasallowed": "No Mega Pokémon Allowed!",
+  "message.megacuffitem.maxmegas": "You already have the maximum number of Mega Pokémon allowed.",
+  "message.megacuffitem.wrongmegastone": "Wrong Megastone for Pokémon",
+  "message.megacuffitem.transformtomega": "%d transformed into Mega Form!",
+  "message.megacuffitem.transformtononmega": "%d transformed into regular Form!",
+
+  "message.megadevolveevent.stoneremoved": "%d transformed into regular Form - Mega Stone Removed!",
+
 
   "advancements.megamons.locate_geode.title": "Mega Beginnings",
     "advancements.megamons.locate_geode.description": "Begin your journey with Cobblemon Megamons by locating your first Anistarite Geode",
