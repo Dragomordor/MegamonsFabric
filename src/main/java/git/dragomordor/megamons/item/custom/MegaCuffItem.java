@@ -163,6 +163,7 @@ public class MegaCuffItem extends PokemonUseItem{
         String capitalizedSpeciesName = nonMegaSpecies.getName().substring(0, 1).toUpperCase() + nonMegaSpecies.getName().substring(1);
         player.sendMessage(Text.translatable("message.megacuffitem.transformtomega",capitalizedSpeciesName),true);
         player.playSound(CobblemonSounds.EVOLVING, SoundCategory.NEUTRAL, 1F, 1F);
+        pokemon.setTradeable(false);
     }
 
     public static void devolveFromMega(Pokemon pokemon, Species nonMegaSpecies, Species MegaSpecies, PlayerEntity player) {
@@ -170,6 +171,7 @@ public class MegaCuffItem extends PokemonUseItem{
         String capitalizedSpeciesName = nonMegaSpecies.getName().substring(0, 1).toUpperCase() + nonMegaSpecies.getName().substring(1);
         player.sendMessage(Text.translatable("message.megacuffitem.transformtononmega",capitalizedSpeciesName),true);
         player.playSound(CobblemonSounds.EVOLVING, SoundCategory.NEUTRAL, 1F, 0.1F);
+        pokemon.setTradeable(true);
     }
 
 }

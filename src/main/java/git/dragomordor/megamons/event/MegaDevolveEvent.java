@@ -75,6 +75,7 @@ public class MegaDevolveEvent {
                 player.sendMessage(Text.translatable("message.megadevolveevent.stoneremoved",capitalizedSpeciesName),true);
                 player.playSound(CobblemonSounds.EVOLVING, SoundCategory.NEUTRAL, 1F, 0.1F);
             }
+            pokemon.setTradeable(true);
         }
     }
 
