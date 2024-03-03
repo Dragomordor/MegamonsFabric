@@ -1,10 +1,10 @@
-// 1.20.1	2024-03-03T15:05:02.9682389	Ascension's Megamons/Tags for minecraft:item
+// 1.20.1	2024-03-03T15:14:43.6758876	Ascension's Megamons/Tags for minecraft:item
 d6ea9def72612555a5a2b9ec30042c8a15a98ed8 data\megamons\tags\items\raw_megastones.json
 1afb5cda842a1ef5ca56c9132f855098c0ad0b2a data\megamons\tags\items\gen1_cut_megastones.json
-742c7b64f4d137cd79b197b19acbeb2e1582f595 data\megamons\tags\items\gen2_cut_megastones.json
 bff35f3b1a77af4f8f3239bdd6ea4d6535c6b1e0 data\megamons\tags\items\gen4_cut_megastones.json
+742c7b64f4d137cd79b197b19acbeb2e1582f595 data\megamons\tags\items\gen2_cut_megastones.json
 5a948dc31dcf6c8b58c25b1e007016a02b8a46ec data\megamons\tags\items\ore_megastones.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\megamons\tags\items\gen6_cut_megastones.json
 11498f343d5d74ae71d08966308c06d62e348b18 data\megamons\tags\items\gen3_cut_megastones.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\megamons\tags\items\gen5_cut_megastones.json
-8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\megamons\tags\items\gen6_cut_megastones.json
 4195fc55afbb06b39b2ad84484d7c0847748f4d2 data\megamons\tags\items\cut_megastones.json

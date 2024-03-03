@@ -2,15 +2,11 @@ package git.dragomordor.megamons.world;
 
 import git.dragomordor.megamons.MegamonsMod;
 import git.dragomordor.megamons.block.MegamonsBlocks;
-import git.dragomordor.megamons.tags.ModTags;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.BlockTags;
-import net.minecraft.structure.rule.BlockMatchRuleTest;
-import net.minecraft.structure.rule.RuleTest;
-import net.minecraft.structure.rule.TagMatchRuleTest;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.world.gen.feature.*;
@@ -80,229 +76,6 @@ public class ModConfiguredFeatures {
 
 // Register ore json files
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
-        RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
-        RuleTest deepslateReplaceables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
-        RuleTest netherReplaceables = new TagMatchRuleTest(BlockTags.BASE_STONE_NETHER);
-        RuleTest endsReplaceables = new BlockMatchRuleTest(Blocks.END_STONE);
-        RuleTest megastoneWallReplaceables = new TagMatchRuleTest(ModTags.Blocks.GEODE_WALLS);
-
-
-        // Gen 1
-        List<OreFeatureConfig.Target> overworldAerodactaliteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_AERODACTYLITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_AERODACTYLITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_AERODACTYLITE.getDefaultState())
-        );
-
-        List<OreFeatureConfig.Target> overworldAlakaziteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_ALAKAZITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_ALAKAZITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_ALAKAZITE.getDefaultState())
-        );
-
-        List<OreFeatureConfig.Target> overworldBeedrilliteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_BEEDRILLITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_BEEDRILLITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_BEEDRILLITE.getDefaultState())
-
-        );
-
-        List<OreFeatureConfig.Target> overworldBlastoisiniteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_BLASTOISINITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_BLASTOISINITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_BLASTOISINITE.getDefaultState())
-
-        );
-
-        List<OreFeatureConfig.Target> overworldCharizarditeXOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_CHARIZARDITEX.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEX.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_CHARIZARDITEX.getDefaultState())
-
-        );
-
-        List<OreFeatureConfig.Target> overworldCharizarditeYOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_CHARIZARDITEY.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEY.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_CHARIZARDITEY.getDefaultState())
-
-        );
-
-        List<OreFeatureConfig.Target> overworldGengariteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_GENGARITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_GENGARITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_GENGARITE.getDefaultState())
-
-        );
-
-        List<OreFeatureConfig.Target> overworldGyaradositeOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_GYARADOSITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_GYARADOSITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_GYARADOSITE.getDefaultState())
-
-        );
-
-        List<OreFeatureConfig.Target> overworldKangaskhaniteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_KANGASKHANITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_KANGASKHANITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_KANGASKHANITE.getDefaultState())
-
-        );
-
-        List<OreFeatureConfig.Target> overworldMewtwoniteXOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_MEWTWONITEX.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEX.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_MEWTWONITEX.getDefaultState())
-
-        );
-
-        List<OreFeatureConfig.Target> overworldMewtwoniteYOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_MEWTWONITEY.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEY.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_MEWTWONITEY.getDefaultState())
-
-        );
-
-        List<OreFeatureConfig.Target> overworldPidgeotiteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_PIDGEOTITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_PIDGEOTITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_PIDGEOTITE.getDefaultState())
-
-        );
-
-        List<OreFeatureConfig.Target> overworldPinsiriteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_PINSIRITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_PINSIRITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_PINSIRITE.getDefaultState())
-
-        );
-
-        List<OreFeatureConfig.Target> overworldSlowbroniteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_SLOWBRONITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_SLOWBRONITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_SLOWBRONITE.getDefaultState())
-
-        );
-
-        List<OreFeatureConfig.Target> overworldVenusauriteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_VENUSAURITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_VENUSAURITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_VENUSAURITE.getDefaultState())
-
-        );
-
-        // Gen 2
-        List<OreFeatureConfig.Target> overworldAmpharositeOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_AMPHAROSITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_AMPHAROSITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_AMPHAROSITE.getDefaultState())
-
-        );
-        // TODO: Add Heracronite
-        // TODO: Add Houndoominite
-        List<OreFeatureConfig.Target> overworldScizoriteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_SCIZORITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_SCIZORITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_SCIZORITE.getDefaultState())
-
-        );
-
-        List<OreFeatureConfig.Target> overworldSteelixiteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_STEELIXITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_STEELIXITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_STEELIXITE.getDefaultState())
-
-        );
-
-        List<OreFeatureConfig.Target> overworldTyranitariteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_TYRANITARITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_TYRANITARITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_TYRANITARITE.getDefaultState())
-
-        );
-
-        // Gen 3
-        // TODO: Add Absolite
-        // TODO: Add Aggronite
-        // TODO: Add Altarianite
-        List<OreFeatureConfig.Target> overworldBanettiteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_BANETTITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_BANETTITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_BANETTITE.getDefaultState())
-
-        );
-
-        // TODO: Add Blazikenite
-        // TODO: Add Cameruptite
-
-        List<OreFeatureConfig.Target> overworldGardevoiriteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_GARDEVOIRITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_GARDEVOIRITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_GARDEVOIRITE.getDefaultState())
-
-        );
-
-        List<OreFeatureConfig.Target> overworldGlalititeOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_GLALITITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_GLALITITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_GLALITITE.getDefaultState())
-
-        );
-
-        // TODO: Add Latiasite
-        // TODO: Add Latiosite
-
-        List<OreFeatureConfig.Target> overworldMawiliteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_MAWILITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_MAWILITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_MAWILITE.getDefaultState())
-
-        );
-
-        // TODO: Add Manechtite
-        // TODO: Add Medichamite
-        // TODO: Add Metagrossite
-        // TODO: Add Rayquazite
-
-        List<OreFeatureConfig.Target> overworldSableniteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_SABLENITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_SABLENITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_SABLENITE.getDefaultState())
-
-        );
-
-        // TODO: Add Salamencite
-        // TODO: Add Sceptilite
-
-        List<OreFeatureConfig.Target> overworldSharpedoniteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_SHARPEDONITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_SHARPEDONITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_SHARPEDONITE.getDefaultState())
-
-        );
-
-        // TODO: Add Swampertite
-        // Gen 4
-        // TODO: Add Abomasite
-        // TODO: Add Galladite
-
-        List<OreFeatureConfig.Target> overworldGarchompiteOres = List.of(
-//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_GARCHOMPITE.getDefaultState()),
-//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_GARCHOMPITE.getDefaultState()),
-                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_GARCHOMPITE.getDefaultState())
-
-        );
-
-        // TODO: Add Lopunnite
-        // TODO: Add Lucarionite
-        // Gen 5
-        // TODO: Add Audinite
-        // Gen 6
-        // TODO: Add Diancite
-        // Gen 7+
-
-
-
     // Geodes
     // Gen 1
         // Aerodactylite geode
@@ -328,7 +101,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -355,7 +128,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -383,7 +156,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -410,7 +183,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -437,7 +210,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -464,7 +237,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -491,7 +264,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -518,7 +291,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -545,7 +318,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -572,7 +345,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -599,7 +372,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -626,7 +399,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -653,7 +426,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -680,7 +453,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -707,7 +480,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -736,7 +509,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -767,7 +540,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -795,7 +568,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -823,7 +596,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -856,7 +629,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -887,7 +660,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -915,7 +688,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -946,7 +719,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -979,7 +752,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -1010,7 +783,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
@@ -1043,7 +816,7 @@ public class ModConfiguredFeatures {
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
                 new GeodeCrackConfig(0.3D, 1.0D, 1),
-                0.025D, 0.002D,
+                0.025D, 0.0025D,
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
