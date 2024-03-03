@@ -49,10 +49,55 @@ public class ModGeodeGeneration {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
                 GenerationStep.Feature.UNDERGROUND_DECORATION, ModPlacedFeatures.VENUSAURITE_GEODE_PLACED_KEY);
         // Gen 2
-
-
-
-
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_DECORATION, ModPlacedFeatures.AMPHAROSITE_GEODE_PLACED_KEY);
+        // TODO: Add Heracronite
+        // TODO: Add Houndoominite
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_DECORATION, ModPlacedFeatures.SCIZORITE_GEODE_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_DECORATION, ModPlacedFeatures.STEELIXITE_GEODE_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_DECORATION, ModPlacedFeatures.TYRANITARITE_GEODE_PLACED_KEY);
+        // Gen 3
+        // TODO: Add Absolite
+        // TODO: Add Aggronite
+        // TODO: Add Altarianite
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_DECORATION, ModPlacedFeatures.BANETTITE_GEODE_PLACED_KEY);
+        // TODO: Add Blazikenite
+        // TODO: Add Cameruptite
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_DECORATION, ModPlacedFeatures.GARDEVOIRITE_GEODE_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_DECORATION, ModPlacedFeatures.GLALITITE_GEODE_PLACED_KEY);
+        // TODO: Add Latiasite
+        // TODO: Add Latiosite
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_DECORATION, ModPlacedFeatures.MAWILITE_GEODE_PLACED_KEY);
+        // TODO: Add Manechtite
+        // TODO: Add Medichamite
+        // TODO: Add Metagrossite
+        // TODO: Add Rayquazite
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_DECORATION, ModPlacedFeatures.SABLENITE_GEODE_PLACED_KEY);
+        // TODO: Add Salamencite
+        // TODO: Add Sceptilite
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_DECORATION, ModPlacedFeatures.SHARPEDONITE_GEODE_PLACED_KEY);
+        // TODO: Add Swampertite
+        // Gen 4
+        // TODO: Add Abomasite
+        // TODO: Add Galladite
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_DECORATION, ModPlacedFeatures.GARCHOMPITE_GEODE_PLACED_KEY);
+        // TODO: Add Lopunnite
+        // TODO: Add Lucarionite
+        // Gen 5
+        // TODO: Add Audinite
+        // Gen 6
+        // TODO: Add Diancite
+        // Gen 7+
 
     }
 

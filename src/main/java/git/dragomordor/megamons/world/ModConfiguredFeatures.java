@@ -38,7 +38,44 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?,?>> SLOWBRONITE_GEODE_KEY = registerKey("slowbronite_geode") ;
     public static final RegistryKey<ConfiguredFeature<?,?>> VENUSAURITE_GEODE_KEY = registerKey("venusaurite_geode") ;
         // Gen 2
-
+    public static final RegistryKey<ConfiguredFeature<?,?>> AMPHAROSITE_GEODE_KEY = registerKey("ampharosite_geode") ;
+    // TODO: Add Heracronite
+    // TODO: Add Houndoominite
+    public static final RegistryKey<ConfiguredFeature<?,?>> SCIZORITE_GEODE_KEY = registerKey("scizorite_geode") ;
+    public static final RegistryKey<ConfiguredFeature<?,?>> STEELIXITE_GEODE_KEY = registerKey("steelixite_geode") ;
+    public static final RegistryKey<ConfiguredFeature<?,?>> TYRANITARITE_GEODE_KEY = registerKey("tyranitarite_geode") ;
+        // Gen 3
+    // TODO: Add Absolite
+    // TODO: Add Aggronite
+    // TODO: Add Altarianite
+    public static final RegistryKey<ConfiguredFeature<?,?>> BANETTITE_GEODE_KEY = registerKey("banettite_geode") ;
+    // TODO: Add Blazikenite
+    // TODO: Add Cameruptite
+    public static final RegistryKey<ConfiguredFeature<?,?>> GARDEVOIRITE_GEODE_KEY = registerKey("gardevoirite_geode") ;
+    public static final RegistryKey<ConfiguredFeature<?,?>> GLALITITE_GEODE_KEY = registerKey("glalitite_geode") ;
+    // TODO: Add Latiasite
+    // TODO: Add Latiosite
+    public static final RegistryKey<ConfiguredFeature<?,?>> MAWILITE_GEODE_KEY = registerKey("mawilite_geode") ;
+    // TODO: Add Manechtite
+    // TODO: Add Medichamite
+    // TODO: Add Metagrossite
+    // TODO: Add Rayquazite
+    public static final RegistryKey<ConfiguredFeature<?,?>> SABLENITE_GEODE_KEY = registerKey("sablenite_geode") ;
+    // TODO: Add Salamencite
+    // TODO: Add Sceptilite
+    public static final RegistryKey<ConfiguredFeature<?,?>> SHARPEDONITE_GEODE_KEY = registerKey("sharpedonite_geode") ;
+    // TODO: Add Swampertite
+    // Gen 4
+    // TODO: Add Abomasite
+    // TODO: Add Galladite
+    public static final RegistryKey<ConfiguredFeature<?,?>> GARCHOMPITE_GEODE_KEY = registerKey("garchompite_geode") ;
+    // TODO: Add Lopunnite
+    // TODO: Add Lucarionite
+    // Gen 5
+    // TODO: Add Audinite
+    // Gen 6
+    // TODO: Add Diancite
+    // Gen 7+
 
 
 // Register ore json files
@@ -49,6 +86,8 @@ public class ModConfiguredFeatures {
         RuleTest endsReplaceables = new BlockMatchRuleTest(Blocks.END_STONE);
         RuleTest megastoneWallReplaceables = new TagMatchRuleTest(ModTags.Blocks.GEODE_WALLS);
 
+
+        // Gen 1
         List<OreFeatureConfig.Target> overworldAerodactaliteOres = List.of(
 //                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_AERODACTYLITE.getDefaultState()),
 //                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_AERODACTYLITE.getDefaultState()),
@@ -152,7 +191,120 @@ public class ModConfiguredFeatures {
 
         );
 
-        // Geodes
+        // Gen 2
+        List<OreFeatureConfig.Target> overworldAmpharositeOres = List.of(
+//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_AMPHAROSITE.getDefaultState()),
+//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_AMPHAROSITE.getDefaultState()),
+                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_AMPHAROSITE.getDefaultState())
+
+        );
+        // TODO: Add Heracronite
+        // TODO: Add Houndoominite
+        List<OreFeatureConfig.Target> overworldScizoriteOres = List.of(
+//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_SCIZORITE.getDefaultState()),
+//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_SCIZORITE.getDefaultState()),
+                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_SCIZORITE.getDefaultState())
+
+        );
+
+        List<OreFeatureConfig.Target> overworldSteelixiteOres = List.of(
+//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_STEELIXITE.getDefaultState()),
+//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_STEELIXITE.getDefaultState()),
+                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_STEELIXITE.getDefaultState())
+
+        );
+
+        List<OreFeatureConfig.Target> overworldTyranitariteOres = List.of(
+//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_TYRANITARITE.getDefaultState()),
+//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_TYRANITARITE.getDefaultState()),
+                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_TYRANITARITE.getDefaultState())
+
+        );
+
+        // Gen 3
+        // TODO: Add Absolite
+        // TODO: Add Aggronite
+        // TODO: Add Altarianite
+        List<OreFeatureConfig.Target> overworldBanettiteOres = List.of(
+//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_BANETTITE.getDefaultState()),
+//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_BANETTITE.getDefaultState()),
+                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_BANETTITE.getDefaultState())
+
+        );
+
+        // TODO: Add Blazikenite
+        // TODO: Add Cameruptite
+
+        List<OreFeatureConfig.Target> overworldGardevoiriteOres = List.of(
+//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_GARDEVOIRITE.getDefaultState()),
+//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_GARDEVOIRITE.getDefaultState()),
+                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_GARDEVOIRITE.getDefaultState())
+
+        );
+
+        List<OreFeatureConfig.Target> overworldGlalititeOres = List.of(
+//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_GLALITITE.getDefaultState()),
+//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_GLALITITE.getDefaultState()),
+                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_GLALITITE.getDefaultState())
+
+        );
+
+        // TODO: Add Latiasite
+        // TODO: Add Latiosite
+
+        List<OreFeatureConfig.Target> overworldMawiliteOres = List.of(
+//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_MAWILITE.getDefaultState()),
+//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_MAWILITE.getDefaultState()),
+                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_MAWILITE.getDefaultState())
+
+        );
+
+        // TODO: Add Manechtite
+        // TODO: Add Medichamite
+        // TODO: Add Metagrossite
+        // TODO: Add Rayquazite
+
+        List<OreFeatureConfig.Target> overworldSableniteOres = List.of(
+//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_SABLENITE.getDefaultState()),
+//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_SABLENITE.getDefaultState()),
+                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_SABLENITE.getDefaultState())
+
+        );
+
+        // TODO: Add Salamencite
+        // TODO: Add Sceptilite
+
+        List<OreFeatureConfig.Target> overworldSharpedoniteOres = List.of(
+//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_SHARPEDONITE.getDefaultState()),
+//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_SHARPEDONITE.getDefaultState()),
+                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_SHARPEDONITE.getDefaultState())
+
+        );
+
+        // TODO: Add Swampertite
+        // Gen 4
+        // TODO: Add Abomasite
+        // TODO: Add Galladite
+
+        List<OreFeatureConfig.Target> overworldGarchompiteOres = List.of(
+//                OreFeatureConfig.createTarget(stoneReplaceables, MegamonsBlocks.ORE_GARCHOMPITE.getDefaultState()),
+//                OreFeatureConfig.createTarget(deepslateReplaceables, MegamonsBlocks.ORE_DEEPSLATE_GARCHOMPITE.getDefaultState()),
+                OreFeatureConfig.createTarget(megastoneWallReplaceables, MegamonsBlocks.ORE_CRYSTAL_GARCHOMPITE.getDefaultState())
+
+        );
+
+        // TODO: Add Lopunnite
+        // TODO: Add Lucarionite
+        // Gen 5
+        // TODO: Add Audinite
+        // Gen 6
+        // TODO: Add Diancite
+        // Gen 7+
+
+
+
+    // Geodes
+    // Gen 1
         // Aerodactylite geode
         register(context, AERODACTYLITE_GEODE_KEY, Feature.GEODE, new GeodeFeatureConfig(
                 new GeodeLayerConfig(
@@ -559,7 +711,353 @@ public class ModConfiguredFeatures {
                 false, UniformIntProvider.create(4, 5),
                 UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
                 -16, 16, 0.05D, 1));
+
+    // Gen 2
+        // Amphorisite
+        register(context, AMPHAROSITE_GEODE_KEY, Feature.GEODE, new GeodeFeatureConfig(
+                new GeodeLayerConfig(
+                        BlockStateProvider.of(Blocks.AIR), // filling
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_GEODE_BLOCK), // inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ORE_CRYSTAL_AMPHAROSITE), //alternate inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // middle layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // outer layer
+                        List.of( // inner blocks
+                                MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_DUSK_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_FIRE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_ICE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_LEAF_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_MOON_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SHINY_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SUN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_THUNDER_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_WATER_STONE_ORE.getDefaultState()
+                        ),
+                        BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
+                new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
+                new GeodeCrackConfig(0.3D, 1.0D, 1),
+                0.025D, 0.002D,
+                false, UniformIntProvider.create(4, 5),
+                UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
+                -16, 16, 0.05D, 1));
+
+    // TODO: Add Heracronite
+    // TODO: Add Houndoominite
+
+        // Scizorite
+        register(context, SCIZORITE_GEODE_KEY, Feature.GEODE, new GeodeFeatureConfig(
+                new GeodeLayerConfig(
+                        BlockStateProvider.of(Blocks.AIR), // filling
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_GEODE_BLOCK), // inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ORE_CRYSTAL_SCIZORITE), //alternate inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // middle layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // outer layer
+                        List.of( // inner blocks
+                                MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_DUSK_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_FIRE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_ICE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_LEAF_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_MOON_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SHINY_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SUN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_THUNDER_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_WATER_STONE_ORE.getDefaultState()
+                        ),
+                        BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
+                new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
+                new GeodeCrackConfig(0.3D, 1.0D, 1),
+                0.025D, 0.002D,
+                false, UniformIntProvider.create(4, 5),
+                UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
+                -16, 16, 0.05D, 1));
+
+        // Steelixite
+        register(context, STEELIXITE_GEODE_KEY, Feature.GEODE, new GeodeFeatureConfig(
+                new GeodeLayerConfig(
+                        BlockStateProvider.of(Blocks.AIR), // filling
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_GEODE_BLOCK), // inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ORE_CRYSTAL_STEELIXITE), //alternate inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // middle layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // outer layer
+                        List.of( // inner blocks
+                                MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_DUSK_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_FIRE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_ICE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_LEAF_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_MOON_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SHINY_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SUN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_THUNDER_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_WATER_STONE_ORE.getDefaultState()
+                        ),
+                        BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
+                new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
+                new GeodeCrackConfig(0.3D, 1.0D, 1),
+                0.025D, 0.002D,
+                false, UniformIntProvider.create(4, 5),
+                UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
+                -16, 16, 0.05D, 1));
+
+        // Tyranitarite
+        register(context, TYRANITARITE_GEODE_KEY, Feature.GEODE, new GeodeFeatureConfig(
+                new GeodeLayerConfig(
+                        BlockStateProvider.of(Blocks.AIR), // filling
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_GEODE_BLOCK), // inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ORE_CRYSTAL_TYRANITARITE), //alternate inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // middle layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // outer layer
+                        List.of( // inner blocks
+                                MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_DUSK_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_FIRE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_ICE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_LEAF_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_MOON_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SHINY_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SUN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_THUNDER_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_WATER_STONE_ORE.getDefaultState()
+                        ),
+                        BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
+                new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
+                new GeodeCrackConfig(0.3D, 1.0D, 1),
+                0.025D, 0.002D,
+                false, UniformIntProvider.create(4, 5),
+                UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
+                -16, 16, 0.05D, 1));
+
+        // Gen 3
+        // TODO: Add Absolite
+        // TODO: Add Aggronite
+        // TODO: Add Altarianite
+
+        // Banettite
+        register(context, BANETTITE_GEODE_KEY, Feature.GEODE, new GeodeFeatureConfig(
+                new GeodeLayerConfig(
+                        BlockStateProvider.of(Blocks.AIR), // filling
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_GEODE_BLOCK), // inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ORE_CRYSTAL_BANETTITE), //alternate inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // middle layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // outer layer
+                        List.of( // inner blocks
+                                MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_DUSK_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_FIRE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_ICE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_LEAF_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_MOON_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SHINY_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SUN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_THUNDER_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_WATER_STONE_ORE.getDefaultState()
+                        ),
+                        BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
+                new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
+                new GeodeCrackConfig(0.3D, 1.0D, 1),
+                0.025D, 0.002D,
+                false, UniformIntProvider.create(4, 5),
+                UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
+                -16, 16, 0.05D, 1));
+
+        // TODO: Add Blazikenite
+        // TODO: Add Cameruptite
+
+        // Gardevoirite
+        register(context, GARDEVOIRITE_GEODE_KEY, Feature.GEODE, new GeodeFeatureConfig(
+                new GeodeLayerConfig(
+                        BlockStateProvider.of(Blocks.AIR), // filling
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_GEODE_BLOCK), // inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ORE_CRYSTAL_GARDEVOIRITE), //alternate inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // middle layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // outer layer
+                        List.of( // inner blocks
+                                MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_DUSK_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_FIRE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_ICE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_LEAF_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_MOON_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SHINY_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SUN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_THUNDER_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_WATER_STONE_ORE.getDefaultState()
+                        ),
+                        BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
+                new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
+                new GeodeCrackConfig(0.3D, 1.0D, 1),
+                0.025D, 0.002D,
+                false, UniformIntProvider.create(4, 5),
+                UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
+                -16, 16, 0.05D, 1));
+
+        // Glalitite
+        register(context, GLALITITE_GEODE_KEY, Feature.GEODE, new GeodeFeatureConfig(
+                new GeodeLayerConfig(
+                        BlockStateProvider.of(Blocks.AIR), // filling
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_GEODE_BLOCK), // inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ORE_CRYSTAL_GLALITITE), //alternate inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // middle layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // outer layer
+                        List.of( // inner blocks
+                                MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_DUSK_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_FIRE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_ICE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_LEAF_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_MOON_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SHINY_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SUN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_THUNDER_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_WATER_STONE_ORE.getDefaultState()
+                        ),
+                        BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
+                new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
+                new GeodeCrackConfig(0.3D, 1.0D, 1),
+                0.025D, 0.002D,
+                false, UniformIntProvider.create(4, 5),
+                UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
+                -16, 16, 0.05D, 1));
+
+        // TODO: Add Latiasite
+        // TODO: Add Latiosite
+
+        // Mawilite
+        register(context, MAWILITE_GEODE_KEY, Feature.GEODE, new GeodeFeatureConfig(
+                new GeodeLayerConfig(
+                        BlockStateProvider.of(Blocks.AIR), // filling
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_GEODE_BLOCK), // inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ORE_CRYSTAL_MAWILITE), //alternate inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // middle layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // outer layer
+                        List.of( // inner blocks
+                                MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_DUSK_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_FIRE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_ICE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_LEAF_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_MOON_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SHINY_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SUN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_THUNDER_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_WATER_STONE_ORE.getDefaultState()
+                        ),
+                        BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
+                new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
+                new GeodeCrackConfig(0.3D, 1.0D, 1),
+                0.025D, 0.002D,
+                false, UniformIntProvider.create(4, 5),
+                UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
+                -16, 16, 0.05D, 1));
+
+        // TODO: Add Manechtite
+        // TODO: Add Medichamite
+        // TODO: Add Metagrossite
+        // TODO: Add Rayquazite
+
+        // Sablenite
+        register(context, SABLENITE_GEODE_KEY, Feature.GEODE, new GeodeFeatureConfig(
+                new GeodeLayerConfig(
+                        BlockStateProvider.of(Blocks.AIR), // filling
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_GEODE_BLOCK), // inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ORE_CRYSTAL_SABLENITE), //alternate inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // middle layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // outer layer
+                        List.of( // inner blocks
+                                MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_DUSK_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_FIRE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_ICE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_LEAF_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_MOON_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SHINY_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SUN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_THUNDER_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_WATER_STONE_ORE.getDefaultState()
+                        ),
+                        BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
+                new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
+                new GeodeCrackConfig(0.3D, 1.0D, 1),
+                0.025D, 0.002D,
+                false, UniformIntProvider.create(4, 5),
+                UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
+                -16, 16, 0.05D, 1));
+
+        // TODO: Add Salamencite
+        // TODO: Add Sceptilite
+
+        // Sharpedonite
+        register(context, SHARPEDONITE_GEODE_KEY, Feature.GEODE, new GeodeFeatureConfig(
+                new GeodeLayerConfig(
+                        BlockStateProvider.of(Blocks.AIR), // filling
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_GEODE_BLOCK), // inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ORE_CRYSTAL_SHARPEDONITE), //alternate inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // middle layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // outer layer
+                        List.of( // inner blocks
+                                MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_DUSK_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_FIRE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_ICE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_LEAF_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_MOON_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SHINY_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SUN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_THUNDER_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_WATER_STONE_ORE.getDefaultState()
+                        ),
+                        BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
+                new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
+                new GeodeCrackConfig(0.3D, 1.0D, 1),
+                0.025D, 0.002D,
+                false, UniformIntProvider.create(4, 5),
+                UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
+                -16, 16, 0.05D, 1));
+
+        // TODO: Add Swampertite
+        // Gen 4
+        // TODO: Add Abomasite
+        // TODO: Add Galladite
+
+        // Garchompite
+        register(context, GARCHOMPITE_GEODE_KEY, Feature.GEODE, new GeodeFeatureConfig(
+                new GeodeLayerConfig(
+                        BlockStateProvider.of(Blocks.AIR), // filling
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_GEODE_BLOCK), // inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ORE_CRYSTAL_GARCHOMPITE), //alternate inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // middle layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // outer layer
+                        List.of( // inner blocks
+                                MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_DUSK_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_FIRE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_ICE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_LEAF_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_MOON_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SHINY_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SUN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_THUNDER_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_WATER_STONE_ORE.getDefaultState()
+                        ),
+                        BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
+                new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
+                new GeodeCrackConfig(0.3D, 1.0D, 1),
+                0.025D, 0.002D,
+                false, UniformIntProvider.create(4, 5),
+                UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
+                -16, 16, 0.05D, 1));
+
+        // TODO: Add Lopunnite
+        // TODO: Add Lucarionite
+        // Gen 5
+        // TODO: Add Audinite
+        // Gen 6
+        // TODO: Add Diancite
+        // Gen 7+
+
     }
+
 
     // Helper methods
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
