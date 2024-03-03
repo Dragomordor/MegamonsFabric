@@ -25,6 +25,7 @@ public class MegamonsItemGroups {
                         // MegaCuffItem
                         entries.add(MegamonsItems.MEGA_CUFF);
                         // RawMegaStoneItems
+                            // Gen 1
                         entries.add(MegamonsItems.RAW_AERODACTYLITE);
                         entries.add(MegamonsItems.RAW_ALAKAZITE);
                         entries.add(MegamonsItems.RAW_BEEDRILLITE);
@@ -40,6 +41,19 @@ public class MegamonsItemGroups {
                         entries.add(MegamonsItems.RAW_PINSIRITE);
                         entries.add(MegamonsItems.RAW_SLOWBRONITE);
                         entries.add(MegamonsItems.RAW_VENUSAURITE);
+                            // Gen 2
+                        entries.add(MegamonsItems.RAW_AMPHAROSITE);
+                        entries.add(MegamonsItems.RAW_BANETTITE);
+                        entries.add(MegamonsItems.RAW_GARCHOMPITE);
+                        entries.add(MegamonsItems.RAW_GARDEVOIRITE);
+                        entries.add(MegamonsItems.RAW_GLALITITE);
+                        entries.add(MegamonsItems.RAW_MAWILITE);
+                        entries.add(MegamonsItems.RAW_SABLENITE);
+                        entries.add(MegamonsItems.RAW_SCIZORITE);
+                        entries.add(MegamonsItems.RAW_SHARPEDONITE);
+                        entries.add(MegamonsItems.RAW_STEELIXITE);
+                        entries.add(MegamonsItems.RAW_TYRANITARITE);
+                            // Gen 3
                         // CutMegaStoneItems
                         entries.add(MegamonsItems.CUT_AERODACTYLITE);
                         entries.add(MegamonsItems.CUT_ALAKAZITE);
@@ -56,6 +70,19 @@ public class MegamonsItemGroups {
                         entries.add(MegamonsItems.CUT_PINSIRITE);
                         entries.add(MegamonsItems.CUT_SLOWBRONITE);
                         entries.add(MegamonsItems.CUT_VENUSAURITE);
+                            // Gen 2
+                        entries.add(MegamonsItems.CUT_AMPHAROSITE);
+                        entries.add(MegamonsItems.CUT_BANETTITE);
+                        entries.add(MegamonsItems.CUT_GARCHOMPITE);
+                        entries.add(MegamonsItems.CUT_GARDEVOIRITE);
+                        entries.add(MegamonsItems.CUT_GLALITITE);
+                        entries.add(MegamonsItems.CUT_MAWILITE);
+                        entries.add(MegamonsItems.CUT_SABLENITE);
+                        entries.add(MegamonsItems.CUT_SCIZORITE);
+                        entries.add(MegamonsItems.CUT_SHARPEDONITE);
+                        entries.add(MegamonsItems.CUT_STEELIXITE);
+                        entries.add(MegamonsItems.CUT_TYRANITARITE);
+                            // Gen 3
 
                     // Blocks
 //                        // Stone ore
@@ -96,6 +123,7 @@ public class MegamonsItemGroups {
                         entries.add(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK);
 
                         // Crystal ore
+                            // Gen 1
                         entries.add(MegamonsBlocks.ORE_CRYSTAL_AERODACTYLITE);
                         entries.add(MegamonsBlocks.ORE_CRYSTAL_ALAKAZITE);
                         entries.add(MegamonsBlocks.ORE_CRYSTAL_BEEDRILLITE);
@@ -111,6 +139,7 @@ public class MegamonsItemGroups {
                         entries.add(MegamonsBlocks.ORE_CRYSTAL_PINSIRITE);
                         entries.add(MegamonsBlocks.ORE_CRYSTAL_SLOWBRONITE);
                         entries.add(MegamonsBlocks.ORE_CRYSTAL_VENUSAURITE);
+                            // Gen 2
 
                         // Geode Crystal Evo ores
                         entries.add(MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE);

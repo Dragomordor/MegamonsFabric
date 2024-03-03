@@ -7,11 +7,24 @@
       "poser": "cobblemon:pinsir",
       "model": "cobblemon:megapinsir.geo",
       "texture": "cobblemon:textures/pokemon/m_pinsir/megapinsir.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/m_pinsir/megapinsir_translucent.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [ "shiny" ],
-      "texture": "cobblemon:textures/pokemon/m_pinsir/megapinsir_shiny.png"
+      "texture": "cobblemon:textures/pokemon/m_pinsir/megapinsir_shiny.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/m_pinsir/megapinsir_shiny_translucent.png",
+          "translucent": true
+        }
+      ]
     }
   ]
 }

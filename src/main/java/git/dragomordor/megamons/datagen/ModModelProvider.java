@@ -93,6 +93,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(MegamonsItems.KEY_STONE, Models.GENERATED);
 
         // RawMegaStoneItems
+            // Gen 1
         itemModelGenerator.register(MegamonsItems.RAW_AERODACTYLITE, Models.GENERATED);
         itemModelGenerator.register(MegamonsItems.RAW_ALAKAZITE, Models.GENERATED);
         itemModelGenerator.register(MegamonsItems.RAW_BEEDRILLITE, Models.GENERATED);
@@ -108,8 +109,23 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(MegamonsItems.RAW_PINSIRITE, Models.GENERATED);
         itemModelGenerator.register(MegamonsItems.RAW_SLOWBRONITE, Models.GENERATED);
         itemModelGenerator.register(MegamonsItems.RAW_VENUSAURITE, Models.GENERATED);
+            // Gen 2
+        itemModelGenerator.register(MegamonsItems.RAW_AMPHAROSITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.RAW_BANETTITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.RAW_GARCHOMPITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.RAW_GARDEVOIRITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.RAW_GLALITITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.RAW_MAWILITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.RAW_SABLENITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.RAW_SCIZORITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.RAW_SHARPEDONITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.RAW_STEELIXITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.RAW_TYRANITARITE, Models.GENERATED);
+            // Gen 3
+
 
         // CutMegaStoneItems
+            // Gen 1
         itemModelGenerator.register(MegamonsItems.CUT_AERODACTYLITE, Models.GENERATED);
         itemModelGenerator.register(MegamonsItems.CUT_ALAKAZITE, Models.GENERATED);
         itemModelGenerator.register(MegamonsItems.CUT_BEEDRILLITE, Models.GENERATED);
@@ -125,6 +141,20 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(MegamonsItems.CUT_PINSIRITE, Models.GENERATED);
         itemModelGenerator.register(MegamonsItems.CUT_SLOWBRONITE, Models.GENERATED);
         itemModelGenerator.register(MegamonsItems.CUT_VENUSAURITE, Models.GENERATED);
+            // Gen 2
+        itemModelGenerator.register(MegamonsItems.CUT_AMPHAROSITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.CUT_BANETTITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.CUT_GARCHOMPITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.CUT_GARDEVOIRITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.CUT_GLALITITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.CUT_MAWILITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.CUT_SABLENITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.CUT_SCIZORITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.CUT_SHARPEDONITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.CUT_STEELIXITE, Models.GENERATED);
+        itemModelGenerator.register(MegamonsItems.CUT_TYRANITARITE, Models.GENERATED);
+            // Gen 3
+
 
         // MegaCuffItem
         itemModelGenerator.register(MegamonsItems.MEGA_CUFF, Models.GENERATED);

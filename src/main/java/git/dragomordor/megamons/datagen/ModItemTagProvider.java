@@ -19,6 +19,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
 
         getOrCreateTagBuilder(ModTags.Items.CUT_MEGASTONES)
+                // Gen 1
                 .add(MegamonsItems.CUT_AERODACTYLITE)
                 .add(MegamonsItems.CUT_ALAKAZITE)
                 .add(MegamonsItems.CUT_BEEDRILLITE)
@@ -33,9 +34,24 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(MegamonsItems.CUT_PIDGEOTITE)
                 .add(MegamonsItems.CUT_PINSIRITE)
                 .add(MegamonsItems.CUT_SLOWBRONITE)
-                .add(MegamonsItems.CUT_VENUSAURITE);
+                .add(MegamonsItems.CUT_VENUSAURITE)
+                // Gen 2
+                .add(MegamonsItems.CUT_AMPHAROSITE)
+                .add(MegamonsItems.CUT_BANETTITE)
+                .add(MegamonsItems.CUT_GARCHOMPITE)
+                .add(MegamonsItems.CUT_GARDEVOIRITE)
+                .add(MegamonsItems.CUT_GLALITITE)
+                .add(MegamonsItems.CUT_MAWILITE)
+                .add(MegamonsItems.CUT_SABLENITE)
+                .add(MegamonsItems.CUT_SCIZORITE)
+                .add(MegamonsItems.CUT_SHARPEDONITE)
+                .add(MegamonsItems.CUT_STEELIXITE)
+                .add(MegamonsItems.CUT_TYRANITARITE);
+                // Gen 3
+                ;
 
         getOrCreateTagBuilder(ModTags.Items.RAW_MEGASTONES)
+                // Gen 1
                 .add(MegamonsItems.RAW_AERODACTYLITE)
                 .add(MegamonsItems.RAW_ALAKAZITE)
                 .add(MegamonsItems.RAW_BEEDRILLITE)
@@ -50,9 +66,25 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(MegamonsItems.RAW_PIDGEOTITE)
                 .add(MegamonsItems.RAW_PINSIRITE)
                 .add(MegamonsItems.RAW_SLOWBRONITE)
-                .add(MegamonsItems.RAW_VENUSAURITE);
+                .add(MegamonsItems.RAW_VENUSAURITE)
+                // Gen 2
+                .add(MegamonsItems.RAW_AMPHAROSITE)
+                .add(MegamonsItems.RAW_BANETTITE)
+                .add(MegamonsItems.RAW_GARCHOMPITE)
+                .add(MegamonsItems.RAW_GARDEVOIRITE)
+                .add(MegamonsItems.RAW_GLALITITE)
+                .add(MegamonsItems.RAW_MAWILITE)
+                .add(MegamonsItems.RAW_SABLENITE)
+                .add(MegamonsItems.RAW_SCIZORITE)
+                .add(MegamonsItems.RAW_SHARPEDONITE)
+                .add(MegamonsItems.RAW_STEELIXITE)
+                .add(MegamonsItems.RAW_TYRANITARITE);
+                // Gen 3
+
+                ;
 
         getOrCreateTagBuilder(ModTags.Items.ORE_MEGASTONES)
+                // Gen 1
                 .add(MegamonsBlocks.ORE_CRYSTAL_AERODACTYLITE.asItem())
                 .add(MegamonsBlocks.ORE_CRYSTAL_ALAKAZITE.asItem())
                 .add(MegamonsBlocks.ORE_CRYSTAL_BEEDRILLITE.asItem())
@@ -67,7 +99,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(MegamonsBlocks.ORE_CRYSTAL_PIDGEOTITE.asItem())
                 .add(MegamonsBlocks.ORE_CRYSTAL_PINSIRITE.asItem())
                 .add(MegamonsBlocks.ORE_CRYSTAL_SLOWBRONITE.asItem())
-                .add(MegamonsBlocks.ORE_CRYSTAL_VENUSAURITE.asItem());
+                .add(MegamonsBlocks.ORE_CRYSTAL_VENUSAURITE.asItem())
+                // Gen 2
+
+                ;
 
 
 
@@ -87,6 +122,20 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(MegamonsItems.CUT_PINSIRITE)
                 .add(MegamonsItems.CUT_SLOWBRONITE)
                 .add(MegamonsItems.CUT_VENUSAURITE);
+
+        getOrCreateTagBuilder(ModTags.Items.GEN2_CUT_MEGASTONES)
+                .add(MegamonsItems.CUT_AMPHAROSITE)
+                .add(MegamonsItems.CUT_BANETTITE)
+                .add(MegamonsItems.CUT_GARCHOMPITE)
+                .add(MegamonsItems.CUT_GARDEVOIRITE)
+                .add(MegamonsItems.CUT_GLALITITE)
+                .add(MegamonsItems.CUT_MAWILITE)
+                .add(MegamonsItems.CUT_SABLENITE)
+                .add(MegamonsItems.CUT_SCIZORITE)
+                .add(MegamonsItems.CUT_SHARPEDONITE)
+                .add(MegamonsItems.CUT_STEELIXITE)
+                .add(MegamonsItems.CUT_TYRANITARITE);
+
 
     }
 }

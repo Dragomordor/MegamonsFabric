@@ -7,6 +7,7 @@ import java.util.List;
 
 public class MegaSpeciesUtil {
 
+    // Gen 1
     // Alakazite
     public static String AlakazitePreEvolution = "alakazam";
     public static String AlakazitePostEvolution = "megaalakazam";
@@ -67,9 +68,88 @@ public class MegaSpeciesUtil {
     public static String VenusauritePreEvolution = "venusaur";
     public static String VenusauritePostEvolution = "megavenusaur";
 
+    // Gen 2
+    // Ampharosite
+    public static String AmpharositePreEvolution = "ampharos";
+    public static String AmpharositePostEvolution = "megaampharos";
+        // TODO: Add Heracronite
+        // TODO: Add Houndoominite
+    // Scizorite
+    public static String ScizoritePreEvolution = "scizor";
+    public static String ScizoritePostEvolution = "megascizor";
+    // Steelixite
+    public static String SteelixitePreEvolution = "steelix";
+    public static String SteelixitePostEvolution = "megasteelix";
+    // Tyranitarite
+    public static String TyranitaritePreEvolution = "tyranitar";
+    public static String TyranitaritePostEvolution = "megatyranitar";
+
+    // Gen 3
+        // TODO: Add Absolite
+        // TODO: Add Aggronite
+        // TODO: Add Altarianite
+    // Banettite
+    public static String BanettitePreEvolution = "banette";
+    public static String BanettitePostEvolution = "megabanette";
+        // TODO: Add Blazikenite
+        // TODO: Add Cameruptite
+    // Gardevoirite
+    public static String GardevoiritePreEvolution = "gardevoir";
+    public static String GardevoiritePostEvolution = "megagardevoir";
+    // Glalitite
+    public static String GlalititePreEvolution = "glalie";
+    public static String GlalititePostEvolution = "megaglalie";
+        // TODO: Add Latiasite
+        // TODO: Add Latiosite
+    // Mawilite
+    public static String MawilitePreEvolution = "mawile";
+    public static String MawilitePostEvolution = "megamawile";
+        // TODO: Add Manechtite
+        // TODO: Add Medichamite
+        // TODO: Add Metagrossite
+        // TODO: Add Rayquazite
+    // Sablenite
+    public static String SablenitePreEvolution = "sableye";
+    public static String SablenitePostEvolution = "megasableye";
+        // TODO: Add Salamencite
+        // TODO: Add Sceptilite
+    // Sharpedonite
+    public static String SharpedonitePreEvolution = "sharpedo";
+    public static String SharpedonitePostEvolution = "megasharpedo";
+        // TODO: Add Swampertite
+    // Gen 4
+        // TODO: Add Abomasite
+        // TODO: Add Galladite
+    // Garchompite
+    public static String GarchompitePreEvolution = "garchomp";
+    public static String GarchompitePostEvolution = "megagarchomp";
+        // TODO: Add Lopunnite
+        // TODO: Add Lucarionite
+    // Gen 5
+        // TODO: Add Audinite
+    // Gen 6
+        // TODO: Add Diancite
+    // Gen 7+
+
+
+
+
+
+
+
+
+
+
+
+    // Gen 3
+
+
+
+
     // Mega Species List
     private static final List<String> MEGA_SPECIES = new ArrayList<>();
     static {
+        // Gen 1
         MEGA_SPECIES.add(AlakazitePostEvolution);
         MEGA_SPECIES.add(AerodactylitePostEvolution);
         MEGA_SPECIES.add(BeedrillitePostEvolution);
@@ -85,6 +165,23 @@ public class MegaSpeciesUtil {
         MEGA_SPECIES.add(PinsiritePostEvolution);
         MEGA_SPECIES.add(SlowbronitePostEvolution);
         MEGA_SPECIES.add(VenusauritePostEvolution);
+        // Gen 2
+
+
+
+
+        MEGA_SPECIES.add(AmpharositePostEvolution);
+        MEGA_SPECIES.add(BanettitePostEvolution);
+        MEGA_SPECIES.add(GardevoiritePostEvolution);
+        MEGA_SPECIES.add(GarchompitePostEvolution);
+        MEGA_SPECIES.add(GlalititePostEvolution);
+        MEGA_SPECIES.add(MawilitePostEvolution);
+        MEGA_SPECIES.add(SablenitePostEvolution);
+        MEGA_SPECIES.add(ScizoritePostEvolution);
+        MEGA_SPECIES.add(SharpedonitePostEvolution);
+        MEGA_SPECIES.add(SteelixitePostEvolution);
+        MEGA_SPECIES.add(TyranitaritePostEvolution);
+        // Gen 3
     }
 
     public static List<String> getMegaSpecies() {
@@ -94,6 +191,7 @@ public class MegaSpeciesUtil {
 
     public static String getPreSpeciesFromPostSpecies(String pokemonPostSpecies) {
         String pokemonPreSpecies = "weedle";
+        // Gen 1
         if (pokemonPostSpecies.equals(AlakazitePostEvolution)) {
            pokemonPreSpecies = AlakazitePreEvolution;
         }
@@ -139,6 +237,45 @@ public class MegaSpeciesUtil {
         if (pokemonPostSpecies.equals(VenusauritePostEvolution)) {
            pokemonPreSpecies = VenusauritePreEvolution;
         }
+
+        // Gen 2
+
+        if (pokemonPostSpecies.equals(AmpharositePostEvolution)) {
+           pokemonPreSpecies = AmpharositePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(BanettitePostEvolution)) {
+           pokemonPreSpecies = BanettitePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(GardevoiritePostEvolution)) {
+           pokemonPreSpecies = GardevoiritePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(GarchompitePostEvolution)) {
+           pokemonPreSpecies = GarchompitePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(GlalititePostEvolution)) {
+           pokemonPreSpecies = GlalititePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(MawilitePostEvolution)) {
+           pokemonPreSpecies = MawilitePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(SablenitePostEvolution)) {
+           pokemonPreSpecies = SablenitePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(ScizoritePostEvolution)) {
+           pokemonPreSpecies = ScizoritePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(SharpedonitePostEvolution)) {
+           pokemonPreSpecies = SharpedonitePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(SteelixitePostEvolution)) {
+           pokemonPreSpecies = SteelixitePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(TyranitaritePostEvolution)) {
+           pokemonPreSpecies = TyranitaritePreEvolution;
+        }
+
+        // Gen 3
+
         return pokemonPreSpecies;
     }
 

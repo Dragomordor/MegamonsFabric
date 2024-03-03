@@ -9,7 +9,7 @@
         "transformTicks": 10,
         "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
         "animations": [
-          "bedrock(megapinsir, ground_idle)"
+          "bedrock(megapinsir, air_idle)"
         ]
       },
       "walking": {
@@ -17,7 +17,7 @@
         "transformTicks": 10,
         "poseTypes": ["WALK"],
         "animations": [
-          "bedrock(megapinsir, ground_walk)"
+          "bedrock(megapinsir, air_idle)"
         ]
       }
     }

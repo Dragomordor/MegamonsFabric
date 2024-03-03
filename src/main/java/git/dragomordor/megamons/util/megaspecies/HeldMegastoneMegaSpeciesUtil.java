@@ -9,6 +9,7 @@ public class HeldMegastoneMegaSpeciesUtil {
 
     public static Species getApplicablePokemonPreEvolutionSpeciesFromMegastone(Item heldMegastone) {
 
+        // Gen 1
         // Alakazite
         if (heldMegastone.equals(MegamonsItems.CUT_ALAKAZITE)) {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.AlakazitePreEvolution);
@@ -69,6 +70,52 @@ public class HeldMegastoneMegaSpeciesUtil {
         if (heldMegastone.equals(MegamonsItems.CUT_VENUSAURITE)) {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.VenusauritePreEvolution);
         }
+        // Gen 2
+        // Ampharos
+        if (heldMegastone.equals(MegamonsItems.CUT_AMPHAROSITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.AmpharositePreEvolution);
+        }
+        // Banette
+        if (heldMegastone.equals(MegamonsItems.CUT_BANETTITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.BanettitePreEvolution);
+        }
+        // Gardevoir
+        if (heldMegastone.equals(MegamonsItems.CUT_GARDEVOIRITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GardevoiritePreEvolution);
+        }
+        // Garchomp
+        if (heldMegastone.equals(MegamonsItems.CUT_GARCHOMPITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GarchompitePreEvolution);
+        }
+        // Glalie
+        if (heldMegastone.equals(MegamonsItems.CUT_GLALITITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GlalititePreEvolution);
+        }
+        // Mawile
+        if (heldMegastone.equals(MegamonsItems.CUT_MAWILITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.MawilitePreEvolution);
+        }
+        // Sableye
+        if (heldMegastone.equals(MegamonsItems.CUT_SABLENITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.SablenitePreEvolution);
+        }
+        // Scizor
+        if (heldMegastone.equals(MegamonsItems.CUT_SCIZORITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.ScizoritePreEvolution);
+        }
+        // Sharpedo
+        if (heldMegastone.equals(MegamonsItems.CUT_SHARPEDONITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.SharpedonitePreEvolution);
+        }
+        // Steelix
+        if (heldMegastone.equals(MegamonsItems.CUT_STEELIXITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.SteelixitePreEvolution);
+        }
+        // Tyranitar
+        if (heldMegastone.equals(MegamonsItems.CUT_TYRANITARITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.TyranitaritePreEvolution);
+        }
+
 
         // Default, held item is not in mega stone list (need to return something, not null)
         return PokemonSpecies.INSTANCE.getByName("weedle");
@@ -76,6 +123,7 @@ public class HeldMegastoneMegaSpeciesUtil {
 
     public static Species getApplicablePokemonPostEvolutionSpeciesFromMegastone(Item heldMegastone) {
 
+        // Gen 1
         // Alakazite
         if (heldMegastone.equals(MegamonsItems.CUT_ALAKAZITE)) {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.AlakazitePostEvolution);
@@ -137,6 +185,52 @@ public class HeldMegastoneMegaSpeciesUtil {
         if (heldMegastone.equals(MegamonsItems.CUT_VENUSAURITE)) {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.VenusauritePostEvolution);
         }
+        // Gen 2
+        // Ampharos
+        if (heldMegastone.equals(MegamonsItems.CUT_AMPHAROSITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.AmpharositePostEvolution);
+        }
+        // Banette
+        if (heldMegastone.equals(MegamonsItems.CUT_BANETTITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.BanettitePostEvolution);
+        }
+        // Gardevoir
+        if (heldMegastone.equals(MegamonsItems.CUT_GARDEVOIRITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GardevoiritePostEvolution);
+        }
+        // Garchomp
+        if (heldMegastone.equals(MegamonsItems.CUT_GARCHOMPITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GarchompitePostEvolution);
+        }
+        // Glalie
+        if (heldMegastone.equals(MegamonsItems.CUT_GLALITITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GlalititePostEvolution);
+        }
+        // Mawile
+        if (heldMegastone.equals(MegamonsItems.CUT_MAWILITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.MawilitePostEvolution);
+        }
+        // Sableye
+        if (heldMegastone.equals(MegamonsItems.CUT_SABLENITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.SablenitePostEvolution);
+        }
+        // Scizor
+        if (heldMegastone.equals(MegamonsItems.CUT_SCIZORITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.ScizoritePostEvolution);
+        }
+        // Sharpedo
+        if (heldMegastone.equals(MegamonsItems.CUT_SHARPEDONITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.SharpedonitePostEvolution);
+        }
+        // Steelix
+        if (heldMegastone.equals(MegamonsItems.CUT_STEELIXITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.SteelixitePostEvolution);
+        }
+        // Tyranitar
+        if (heldMegastone.equals(MegamonsItems.CUT_TYRANITARITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.TyranitaritePostEvolution);
+        }
+        // Gen 3
 
         // Default, held item is not in mega stone list (need to return something, not null)
         return PokemonSpecies.INSTANCE.getByName("weedle");

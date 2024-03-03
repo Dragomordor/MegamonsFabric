@@ -33,7 +33,7 @@
       "poseTypes": ["WALK"],
       "animations": [
         "look",
-        "bedrock(megaslowbro, ground_idle)"
+        "bedrock(megaslowbro, ground_walk)"
       ],
       "quirks": [
         {
@@ -55,6 +55,22 @@
       ],
       "animations": [
         "bedrock(megaslowbro, sleep)"
+      ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "bedrock(megablastoise, water_idle)"
+      ]
+    },
+    "swiming": {
+      "poseName": "swiming",
+      "transformTicks": 10,
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "bedrock(megablastoise, water_swim)"
       ]
     }
   }

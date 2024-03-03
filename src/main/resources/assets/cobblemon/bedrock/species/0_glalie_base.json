@@ -1,0 +1,26 @@
+{
+  "species": "cobblemon:megaglalie",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:megaglalie",
+      "model": "cobblemon:megaglalie.geo",
+      "texture": "cobblemon:textures/pokemon/m_glalie/megaglalie.png",
+      "layers": [ 
+	  {
+        }
+		]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/m_glalie/megaglalie_shiny.png",
+      "layers": [
+	   {
+        }
+	  ]
+    }
+  ]
+}

@@ -138,6 +138,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     public void generate(Consumer<RecipeJsonProvider> exporter) {
 
         // Raw Megastone to Cut Megastone via stonecutter
+            // Gen 1
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_AERODACTYLITE, MegamonsItems.RAW_AERODACTYLITE, 1);
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_ALAKAZITE, MegamonsItems.RAW_ALAKAZITE, 1);
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_BEEDRILLITE, MegamonsItems.RAW_BEEDRILLITE, 1);
@@ -153,6 +154,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_PINSIRITE, MegamonsItems.RAW_PINSIRITE, 1);
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_SLOWBRONITE, MegamonsItems.RAW_SLOWBRONITE, 1);
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_VENUSAURITE, MegamonsItems.RAW_VENUSAURITE, 1);
+            // Gen 2
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_AMPHAROSITE, MegamonsItems.RAW_AMPHAROSITE, 1);
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_BANETTITE, MegamonsItems.RAW_BANETTITE, 1);
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_GARCHOMPITE, MegamonsItems.RAW_GARCHOMPITE, 1);
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_GARDEVOIRITE, MegamonsItems.RAW_GARDEVOIRITE, 1);
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_GLALITITE, MegamonsItems.RAW_GLALITITE, 1);
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_MAWILITE, MegamonsItems.RAW_MAWILITE, 1);
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_SABLENITE, MegamonsItems.RAW_SABLENITE, 1);
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_SCIZORITE, MegamonsItems.RAW_SCIZORITE, 1);
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_SHARPEDONITE, MegamonsItems.RAW_SHARPEDONITE, 1);
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_STEELIXITE, MegamonsItems.RAW_STEELIXITE, 1);
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_TYRANITARITE, MegamonsItems.RAW_TYRANITARITE, 1);
+            // Gen 3
 
 
     // Smelt Ore Megastone to Raw Megastone

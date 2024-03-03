@@ -11,7 +11,7 @@ public class MegastoneItemList {
     public List<Item> getMegastonesItemList() {
         List<Item> cutMegastoneItemList = new ArrayList<>();
 
-        // add new megastones here!
+            // Gen 1
         cutMegastoneItemList.add(MegamonsItems.CUT_ALAKAZITE);
         cutMegastoneItemList.add(MegamonsItems.CUT_AERODACTYLITE);
         cutMegastoneItemList.add(MegamonsItems.CUT_BEEDRILLITE);
@@ -27,6 +27,19 @@ public class MegastoneItemList {
         cutMegastoneItemList.add(MegamonsItems.CUT_PINSIRITE);
         cutMegastoneItemList.add(MegamonsItems.CUT_SLOWBRONITE);
         cutMegastoneItemList.add(MegamonsItems.CUT_VENUSAURITE);
+            // Gen 2
+        cutMegastoneItemList.add(MegamonsItems.CUT_AMPHAROSITE);
+        cutMegastoneItemList.add(MegamonsItems.CUT_BANETTITE);
+        cutMegastoneItemList.add(MegamonsItems.CUT_GARCHOMPITE);
+        cutMegastoneItemList.add(MegamonsItems.CUT_GARDEVOIRITE);
+        cutMegastoneItemList.add(MegamonsItems.CUT_GLALITITE);
+        cutMegastoneItemList.add(MegamonsItems.CUT_MAWILITE);
+        cutMegastoneItemList.add(MegamonsItems.CUT_SABLENITE);
+        cutMegastoneItemList.add(MegamonsItems.CUT_SCIZORITE);
+        cutMegastoneItemList.add(MegamonsItems.CUT_SHARPEDONITE);
+        cutMegastoneItemList.add(MegamonsItems.CUT_STEELIXITE);
+        cutMegastoneItemList.add(MegamonsItems.CUT_TYRANITARITE);
+
 
         return cutMegastoneItemList;
 

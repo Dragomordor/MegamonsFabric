@@ -4,7 +4,6 @@
      "portraitTranslation": [-0.45, 2, 0],
      "profileScale": 0.5,
      "profileTranslation": [0, 1, 0],
-    "faint": "bedrock(megacharizardy, faint, true)",
     "cry":  "bedrock(charizard, cry)",
     "poses": {
       "standing": {
@@ -14,12 +13,6 @@
         "animations": [
           "look",
           "bedrock(megacharizardy, ground_idle)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(megacharizardy, blink)"]
-          }
         ]
       },
       "walking": {
@@ -28,22 +21,6 @@
         "animations": [
           "look",
           "bedrock(megacharizardy, ground_walk)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(megacharizardy, blink)"]
-          }
-        ]
-      },
-      "sleeping": {
-        "poseName": "sleeping",
-        "transformTicks": 10,
-        "poseTypes": [
-          "SLEEP"
-        ],
-        "animations": [
-          "bedrock(megacharizardy, sleep)"
         ]
       },
       "hovering": {
@@ -52,14 +29,6 @@
         "poseTypes": ["HOVER"],
         "animations": [
           "bedrock(megacharizardy, air_idle)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": [
-              "bedrock(megacharizardy, blink)"
-            ]
-          }
         ]
       },
       "flying": {
@@ -68,12 +37,6 @@
         "poseTypes": ["FLY"],
         "animations": [
           "bedrock(megacharizardy, air_fly)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(megacharizardy, blink)"]
-          }
         ]
       }
     }

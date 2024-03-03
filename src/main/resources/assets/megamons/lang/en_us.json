@@ -15,6 +15,20 @@
   "item.megamons.raw_slowbronite": "Raw Slowbronite",
   "item.megamons.raw_venusaurite": "Raw Venusaurite",
 
+  "item.megamons.raw_ampharosite": "Raw Ampharosite",
+  "item.megamons.raw_banettite": "Raw Banettite",
+  "item.megamons.raw_garchompite": "Raw Garchompite",
+  "item.megamons.raw_gardevoirite": "Raw Gardevoirite",
+  "item.megamons.raw_glalitite": "Raw Glalitite",
+  "item.megamons.raw_mawilite": "Raw Mawilite",
+  "item.megamons.raw_sablenite": "Raw Sablenite",
+  "item.megamons.raw_scizorite": "Raw Scizorite",
+  "item.megamons.raw_sharpedonite": "Raw Sharpedonite",
+  "item.megamons.raw_steelixite": "Raw Steelixite",
+  "item.megamons.raw_tyranitarite": "Raw Tyranitarite",
+
+
+
   "item.megamons.cut_aerodactylite": "Aerodactylite",
   "item.megamons.cut_alakazite": "Alakazite",
   "item.megamons.cut_beedrillite": "Beedrillite",
@@ -30,6 +44,19 @@
   "item.megamons.cut_pinsirite": "Pinsirite",
   "item.megamons.cut_slowbronite": "Slowbronite",
   "item.megamons.cut_venusaurite": "Venusaurite",
+
+  "item.megamons.cut_ampharosite": "Ampharosite",
+  "item.megamons.cut_banettite": "Banettite",
+  "item.megamons.cut_garchompite": "Garchompite",
+  "item.megamons.cut_gardevoirite": "Gardevoirite",
+  "item.megamons.cut_glalitite": "Glalitite",
+  "item.megamons.cut_mawilite": "Mawilite",
+  "item.megamons.cut_sablenite": "Sablenite",
+  "item.megamons.cut_scizorite": "Scizorite",
+  "item.megamons.cut_sharpedonite": "Sharpedonite",
+  "item.megamons.cut_steelixite": "Steelixite",
+  "item.megamons.cut_tyranitarite": "Tyranitarite",
+
 
   "item.megamons.key_stone": "Key Stone",
   "item.megamons.mega_cuff": "Mega Cuff",
@@ -82,6 +109,19 @@
   "block.megamons.pinsirite_crystal_ore": "Anistarite Pinsirite Ore",
   "block.megamons.slowbronite_crystal_ore": "Anistarite Slowbronite Ore",
   "block.megamons.venusaurite_crystal_ore": "Anistarite Venusaurite Ore",
+
+  "block.megamons.ampharosite_crystal_ore": "Anistarite Ampharosite Ore",
+  "block.megamons.banettite_crystal_ore": "Anistarite Banettite Ore",
+  "block.megamons.garchompite_crystal_ore": "Anistarite Garchompite Ore",
+  "block.megamons.gardevoirite_crystal_ore": "Anistarite Gardevoirite Ore",
+  "block.megamons.glalitite_crystal_ore": "Anistarite Glalitite Ore",
+  "block.megamons.mawilite_crystal_ore": "Anistarite Mawilite Ore",
+  "block.megamons.sablenite_crystal_ore": "Anistarite Sablenite Ore",
+  "block.megamons.scizorite_crystal_ore": "Anistarite Scizorite Ore",
+  "block.megamons.sharpedonite_crystal_ore": "Anistarite Sharpedonite Ore",
+  "block.megamons.steelixite_crystal_ore": "Anistarite Steelixite Ore",
+  "block.megamons.tyranitarite_crystal_ore": "Anistarite Tyranitarite Ore",
+
 
   "block.megamons.crystal_dawn_stone_ore": "Anistarite Dawn Stone Ore",
   "block.megamons.crystal_dusk_stone_ore": "Anistarite Dusk Stone Ore",
@@ -161,10 +201,36 @@
     "advancements.megamons.venusaurite_stone.title": "The walking jungle",
         "advancements.megamons.venusaurite_stone.description": "Obtain a Cut Venusaurite",
 
+    "advancements.megamons.ampharosite_stone.title": "Electric boogaloo",
+        "advancements.megamons.ampharosite_stone.description": "Obtain a Cut Ampharosite",
+    "advancements.megamons.banettite_stone.title": "Ghost of the past",
+        "advancements.megamons.banettite_stone.description": "Obtain a Cut Banettite",
+    "advancements.megamons.garchompite_stone.title": "Land shark",
+          "advancements.megamons.garchompite_stone.description": "Obtain a Cut Garchompite",
+    "advancements.megamons.gardevoirite_stone.title": "Princess",
+          "advancements.megamons.gardevoirite_stone.description": "Obtain a Cut Gardevoirite",
+    "advancements.megamons.glalitite_stone.title": "Ice cream?",
+            "advancements.megamons.glalitite_stone.description": "Obtain a Cut Glalitite",
+    "advancements.megamons.mawilite_stone.title": "Puppy!",
+            "advancements.megamons.mawilite_stone.description": "Obtain a Cut Mawilite",
+    "advancements.megamons.sablenite_stone.title": "My precious... teeth?",
+            "advancements.megamons.sablenite_stone.description": "Obtain a Cut Sablenite",
+    "advancements.megamons.scizorite_stone.title": "Don't run with scissors!",
+            "advancements.megamons.scizorite_stone.description": "Obtain a Cut Scizorite",
+    "advancements.megamons.sharpedonite_stone.title": "Shark bait! Hoo ha ha!",
+            "advancements.megamons.sharpedonite_stone.description": "Obtain a Cut Sharpedonite",
+    "advancements.megamons.steelixite_stone.title": "Slinky!",
+            "advancements.megamons.steelixite_stone.description": "Obtain a Cut Steelixite",
+    "advancements.megamons.tyranitarite_stone.title": "Pterataur!?",
+            "advancements.megamons.tyranitarite_stone.description": "Obtain a Cut Tyranitarite",
+
+
+
+
     "advancements.megamons.all_gen1_stones.title": "Gotta catch 'em all",
       "advancements.megamons.all_gen1_stones.description": "Obtain the Cut Mega Stone for each Gen 1 Mega Pokémon",
-
-
+    "advancements.megamons.all_gen2_stones.title": "Second time's the charm",
+      "advancements.megamons.all_gen2_stones.description": "Obtain the Cut Mega Stone for each Gen 2 Mega Pokémon",
 
   "advancements.megamons.all_gens_all_stones.title": "A fine marble collection",
     "advancements.megamons.all_gens_all_stones.description": "Obtain the Cut Mega Stone for all Mega Pokémon",
@@ -236,8 +302,25 @@
     "book.megamons_guide.entries.mega_pokemon_gen1.slowbronite.image.title": "Slowbro",
     "book.megamons_guide.entries.mega_pokemon_gen1.venusaurite.image.title": "Venusaur",
 
-    "book.megamons_guide.categories.support.name": "Support",
-    "book.megamons_guide.categories.support.description": "Need help with the mod? Here are some ways to get support.$(br2)$(l:https://discord.gg/BDDf3dT2Mj)Discord$(/l)$(br)$(l:https://modrinth.com/mod/ascension-megamons)Modrinth$(/l)$(br)$(l:https://www.curseforge.com/minecraft/mc-mods/ascension-megamons)CurseForge$(/l)"
+
+  "book.megamons_guide.entries.mega_pokemon_gen2.name": "Gen 2 Mega's",
+    "book.megamons_guide.entries.mega_pokemon_gen2.text.page2": "Each Gen 2 Mega Pokémon has a unique Cut $(l:megamons:mega_stones/mega_stones)Mega Stone$(/l) that allows them to $(l:megamons:mega_evolution/mega_evolution)Mega Evolve$(/l).$(br2)The Cut $(l:megamons:mega_stones/mega_stones)Mega Stone$(/l) for each Pokémon is shown in the pages that follow. These pages will be revealed when the relevant Cut $(l:megamons:mega_stones/mega_stones)Mega Stone$(/l) is obtained for the first time.",
+
+    "book.megamons_guide.entries.mega_pokemon_gen2.ampharosite.image.title": "Ampharos",
+    "book.megamons_guide.entries.mega_pokemon_gen2.banettite.image.title": "Banette",
+    "book.megamons_guide.entries.mega_pokemon_gen2.garchompite.image.title": "Garchomp",
+    "book.megamons_guide.entries.mega_pokemon_gen2.gardevoirite.image.title": "Gardevoir",
+    "book.megamons_guide.entries.mega_pokemon_gen2.glalitite.image.title": "Glalie",
+    "book.megamons_guide.entries.mega_pokemon_gen2.mawilite.image.title": "Mawile",
+    "book.megamons_guide.entries.mega_pokemon_gen2.sablenite.image.title": "Sableye",
+    "book.megamons_guide.entries.mega_pokemon_gen2.scizorite.image.title": "Scizor",
+    "book.megamons_guide.entries.mega_pokemon_gen2.sharpedonite.image.title": "Sharpedo",
+    "book.megamons_guide.entries.mega_pokemon_gen2.steelixite.image.title": "Steelix",
+    "book.megamons_guide.entries.mega_pokemon_gen2.tyranitarite.image.title": "Tyranitar",
+
+
+  "book.megamons_guide.categories.support.name": "Support",
+  "book.megamons_guide.categories.support.description": "Need help with the mod? Here are some ways to get support.$(br2)$(l:https://discord.gg/BDDf3dT2Mj)Discord$(/l)$(br)$(l:https://modrinth.com/mod/ascension-megamons)Modrinth$(/l)$(br)$(l:https://www.curseforge.com/minecraft/mc-mods/ascension-megamons)CurseForge$(/l)"
 
 
 }

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_sharpedonite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megamons:raw_sharpedonite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cut_sharpedonite_from_raw_sharpedonite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_sharpedonite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cut_sharpedonite_from_raw_sharpedonite_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

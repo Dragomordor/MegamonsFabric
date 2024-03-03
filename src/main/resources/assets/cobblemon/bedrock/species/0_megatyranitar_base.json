@@ -1,0 +1,19 @@
+{
+	"species": "cobblemon:megatyranitar",
+	"order": 1,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:megatyranitar",
+			"model": "cobblemon:megatyranitar.geo",
+			"texture": "cobblemon:textures/pokemon/m_tyranitar/megatyranitar.png",
+			"layers": [
+				
+			]
+		},
+		{
+			"aspects": [ "shiny" ],
+			"texture": "cobblemon:textures/pokemon/m_tyranitar/megatyranitar_shiny.png"
+		}
+	]
+}

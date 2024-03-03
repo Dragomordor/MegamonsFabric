@@ -3,10 +3,10 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.megagyarados",
+				"identifier": "geometry.megagyrados",
 				"texture_width": 128,
 				"texture_height": 128,
-				"visible_bounds_width": 9,
+				"visible_bounds_width": 11,
 				"visible_bounds_height": 5,
 				"visible_bounds_offset": [0, 1.5, 0]
 			},
