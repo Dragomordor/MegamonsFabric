@@ -57,7 +57,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 //        addDrop(MegamonsBlocks.ORE_DEEPSLATE_PINSIRITE, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_PINSIRITE, MegamonsItems.RAW_PINSIRITE));
 //        addDrop(MegamonsBlocks.ORE_DEEPSLATE_SLOWBRONITE, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_SLOWBRONITE, MegamonsItems.RAW_SLOWBRONITE));
 //        addDrop(MegamonsBlocks.ORE_DEEPSLATE_VENUSAURITE, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_VENUSAURITE, MegamonsItems.RAW_VENUSAURITE));
-        // crystal ores
+
+        // Crystal ores
+        // Gen 1
         addDrop(MegamonsBlocks.ORE_CRYSTAL_AERODACTYLITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_AERODACTYLITE, MegamonsItems.RAW_AERODACTYLITE));
         addDrop(MegamonsBlocks.ORE_CRYSTAL_ALAKAZITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_ALAKAZITE, MegamonsItems.RAW_ALAKAZITE));
         addDrop(MegamonsBlocks.ORE_CRYSTAL_BEEDRILLITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_BEEDRILLITE, MegamonsItems.RAW_BEEDRILLITE));
@@ -73,6 +75,46 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(MegamonsBlocks.ORE_CRYSTAL_PINSIRITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_PINSIRITE, MegamonsItems.RAW_PINSIRITE));
         addDrop(MegamonsBlocks.ORE_CRYSTAL_SLOWBRONITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_SLOWBRONITE, MegamonsItems.RAW_SLOWBRONITE));
         addDrop(MegamonsBlocks.ORE_CRYSTAL_VENUSAURITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_VENUSAURITE, MegamonsItems.RAW_VENUSAURITE));
+        // Gen 2
+        addDrop(MegamonsBlocks.ORE_CRYSTAL_AMPHAROSITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_AMPHAROSITE, MegamonsItems.RAW_AMPHAROSITE));
+        // TODO: Add Heracronite
+        // TODO: Add Houndoominite
+        addDrop(MegamonsBlocks.ORE_CRYSTAL_SCIZORITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_SCIZORITE, MegamonsItems.RAW_SCIZORITE));
+        addDrop(MegamonsBlocks.ORE_CRYSTAL_STEELIXITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_STEELIXITE, MegamonsItems.RAW_STEELIXITE));
+        addDrop(MegamonsBlocks.ORE_CRYSTAL_TYRANITARITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_TYRANITARITE, MegamonsItems.RAW_TYRANITARITE));
+        // Gen 3
+        // TODO: Add Absolite
+        // TODO: Add Aggronite
+        // TODO: Add Altarianite
+        addDrop(MegamonsBlocks.ORE_CRYSTAL_BANETTITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_BANETTITE, MegamonsItems.RAW_BANETTITE));
+        // TODO: Add Blazikenite
+        // TODO: Add Cameruptite
+        addDrop(MegamonsBlocks.ORE_CRYSTAL_GARDEVOIRITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_GARDEVOIRITE, MegamonsItems.RAW_GARDEVOIRITE));
+        addDrop(MegamonsBlocks.ORE_CRYSTAL_GLALITITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_GLALITITE, MegamonsItems.RAW_GLALITITE));
+        // TODO: Add Latiasite
+        // TODO: Add Latiosite
+        addDrop(MegamonsBlocks.ORE_CRYSTAL_MAWILITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_MAWILITE, MegamonsItems.RAW_MAWILITE));
+        // TODO: Add Manechtite
+        // TODO: Add Medichamite
+        // TODO: Add Metagrossite
+        // TODO: Add Rayquazite
+        addDrop(MegamonsBlocks.ORE_CRYSTAL_SABLENITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_SABLENITE, MegamonsItems.RAW_SABLENITE));
+        // TODO: Add Salamencite
+        // TODO: Add Sceptilite
+        addDrop(MegamonsBlocks.ORE_CRYSTAL_SHARPEDONITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_SHARPEDONITE, MegamonsItems.RAW_SHARPEDONITE));
+        // TODO: Add Swampertite
+        // Gen 4
+        // TODO: Add Abomasite
+        // TODO: Add Galladite
+        addDrop(MegamonsBlocks.ORE_CRYSTAL_GARCHOMPITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_GARCHOMPITE, MegamonsItems.RAW_GARCHOMPITE));
+        // TODO: Add Lopunnite
+        // TODO: Add Lucarionite
+        // Gen 5
+        // TODO: Add Audinite
+        // Gen 6
+        // TODO: Add Diancite
+        // Gen 7+
+
 
         // Geode Crystal Evo ores
         addDrop(MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE, megastoneOreDrops(MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE, CobblemonItems.DAWN_STONE));

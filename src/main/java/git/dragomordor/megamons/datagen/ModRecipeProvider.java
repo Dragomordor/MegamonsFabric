@@ -23,6 +23,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     // Item lists
     // Megastone smelt tables
+        // Gen 1
     private static final List<ItemConvertible> ORE_SMELT_AERODACTYLITE = List.of(
 //            MegamonsBlocks.ORE_AERODACTYLITE,
 //            MegamonsBlocks.ORE_DEEPSLATE_AERODACTYLITE,
@@ -97,8 +98,80 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 //            MegamonsBlocks.ORE_VENUSAURITE,
 //            MegamonsBlocks.ORE_DEEPSLATE_VENUSAURITE,
             MegamonsBlocks.ORE_CRYSTAL_VENUSAURITE);
+        // Gen 2
+    private static final List<ItemConvertible> ORE_SMELT_AMPHAROSITE = List.of(
+//            MegamonsBlocks.ORE_AMPHAROSITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_AMPHAROSITE,
+            MegamonsBlocks.ORE_CRYSTAL_AMPHAROSITE);
+    // TODO: Add Heracronite
+    // TODO: Add Houndoominite
+    private static final List<ItemConvertible> ORE_SMELT_SCIZORITE = List.of(
+//            MegamonsBlocks.ORE_SCIZORITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_SCIZORITE,
+            MegamonsBlocks.ORE_CRYSTAL_SCIZORITE);
+    private static final List<ItemConvertible> ORE_SMELT_STEELIXITE = List.of(
+//            MegamonsBlocks.ORE_STEELIXITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_STEELIXITE,
+            MegamonsBlocks.ORE_CRYSTAL_STEELIXITE);
+    private static final List<ItemConvertible> ORE_SMELT_TYRANITARITE = List.of(
+//            MegamonsBlocks.ORE_TYRANITARITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_TYRANITARITE,
+            MegamonsBlocks.ORE_CRYSTAL_TYRANITARITE);
+        // Gen 3
+    // TODO: Add Absolite
+    // TODO: Add Aggronite
+    // TODO: Add Altarianite
+    private static final List<ItemConvertible> ORE_SMELT_BANETTITE = List.of(
+//            MegamonsBlocks.ORE_BANETTITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_BANETTITE,
+            MegamonsBlocks.ORE_CRYSTAL_BANETTITE);
+    // TODO: Add Blazikenite
+    // TODO: Add Cameruptite
+    private static final List<ItemConvertible> ORE_SMELT_GARDEVOIRITE = List.of(
+//            MegamonsBlocks.ORE_GARDEVOIRITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_GARDEVOIRITE,
+            MegamonsBlocks.ORE_CRYSTAL_GARDEVOIRITE);
+    private static final List<ItemConvertible> ORE_SMELT_GLALITITE = List.of(
+//            MegamonsBlocks.ORE_GLALITITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_GLALITITE,
+            MegamonsBlocks.ORE_CRYSTAL_GLALITITE);
+    // TODO: Add Latiasite
+    // TODO: Add Latiosite
+    private static final List<ItemConvertible> ORE_SMELT_MAWILITE = List.of(
+//            MegamonsBlocks.ORE_MAWILITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_MAWILITE,
+            MegamonsBlocks.ORE_CRYSTAL_MAWILITE);
+    // TODO: Add Manechtite
+    // TODO: Add Medichamite
+    // TODO: Add Metagrossite
+    // TODO: Add Rayquazite
+    private static final List<ItemConvertible> ORE_SMELT_SABLENITE = List.of(
+//            MegamonsBlocks.ORE_SABLENITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_SABLENITE,
+            MegamonsBlocks.ORE_CRYSTAL_SABLENITE);
+    // TODO: Add Salamencite
+    // TODO: Add Sceptilite
+    private static final List<ItemConvertible> ORE_SMELT_SHARPEDONITE = List.of(
+//            MegamonsBlocks.ORE_SHARPEDONITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_SHARPEDONITE,
+            MegamonsBlocks.ORE_CRYSTAL_SHARPEDONITE);
+    // TODO: Add Swampertite
+    // Gen 4
+    // TODO: Add Abomasite
+    // TODO: Add Galladite
+    private static final List<ItemConvertible> ORE_SMELT_GARCHOMPITE = List.of(
+//            MegamonsBlocks.ORE_GARCHOMPITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_GARCHOMPITE,
+            MegamonsBlocks.ORE_CRYSTAL_GARCHOMPITE);
+    // TODO: Add Lopunnite
+    // TODO: Add Lucarionite
+    // Gen 5
+    // TODO: Add Audinite
+    // Gen 6
+    // TODO: Add Diancite
+    // Gen 7+
 
-    // Evo ores
+// Evo ores
     private static final List<ItemConvertible> ORE_SMELT_DAWN_EVO = List.of(
             MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE);
 
@@ -156,21 +229,48 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_VENUSAURITE, MegamonsItems.RAW_VENUSAURITE, 1);
             // Gen 2
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_AMPHAROSITE, MegamonsItems.RAW_AMPHAROSITE, 1);
-        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_BANETTITE, MegamonsItems.RAW_BANETTITE, 1);
-        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_GARCHOMPITE, MegamonsItems.RAW_GARCHOMPITE, 1);
-        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_GARDEVOIRITE, MegamonsItems.RAW_GARDEVOIRITE, 1);
-        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_GLALITITE, MegamonsItems.RAW_GLALITITE, 1);
-        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_MAWILITE, MegamonsItems.RAW_MAWILITE, 1);
-        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_SABLENITE, MegamonsItems.RAW_SABLENITE, 1);
+        // TODO: Add Heracronite
+        // TODO: Add Houndoominite
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_SCIZORITE, MegamonsItems.RAW_SCIZORITE, 1);
-        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_SHARPEDONITE, MegamonsItems.RAW_SHARPEDONITE, 1);
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_STEELIXITE, MegamonsItems.RAW_STEELIXITE, 1);
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_TYRANITARITE, MegamonsItems.RAW_TYRANITARITE, 1);
             // Gen 3
+        // TODO: Add Absolite
+        // TODO: Add Aggronite
+        // TODO: Add Altarianite
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_BANETTITE, MegamonsItems.RAW_BANETTITE, 1);
+        // TODO: Add Blazikenite
+        // TODO: Add Cameruptite
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_GARDEVOIRITE, MegamonsItems.RAW_GARDEVOIRITE, 1);
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_GLALITITE, MegamonsItems.RAW_GLALITITE, 1);
+        // TODO: Add Latiasite
+        // TODO: Add Latiosite
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_MAWILITE, MegamonsItems.RAW_MAWILITE, 1);
+        // TODO: Add Manechtite
+        // TODO: Add Medichamite
+        // TODO: Add Metagrossite
+        // TODO: Add Rayquazite
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_SABLENITE, MegamonsItems.RAW_SABLENITE, 1);
+        // TODO: Add Salamencite
+        // TODO: Add Sceptilite
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_SHARPEDONITE, MegamonsItems.RAW_SHARPEDONITE, 1);
+        // TODO: Add Swampertite
+        // Gen 4
+        // TODO: Add Abomasite
+        // TODO: Add Galladite
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_GARCHOMPITE, MegamonsItems.RAW_GARCHOMPITE, 1);
+        // TODO: Add Lopunnite
+        // TODO: Add Lucarionite
+        // Gen 5
+        // TODO: Add Audinite
+        // Gen 6
+        // TODO: Add Diancite
+        // Gen 7+
 
 
     // Smelt Ore Megastone to Raw Megastone
         // Smelting
+            // Gen 1
         offerSmelting(exporter, ORE_SMELT_AERODACTYLITE, RecipeCategory.MISC, MegamonsItems.RAW_AERODACTYLITE, 1.0F, 200, "megastones");
         offerSmelting(exporter, ORE_SMELT_ALAKAZITE, RecipeCategory.MISC, MegamonsItems.RAW_ALAKAZITE, 1.0F, 200, "megastones");
         offerSmelting(exporter, ORE_SMELT_BEEDRILLITE, RecipeCategory.MISC, MegamonsItems.RAW_BEEDRILLITE, 1.0F, 200, "megastones");
@@ -186,7 +286,49 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSmelting(exporter, ORE_SMELT_PINSIRITE, RecipeCategory.MISC, MegamonsItems.RAW_PINSIRITE, 1.0F, 200, "megastones");
         offerSmelting(exporter, ORE_SMELT_SLOWBRONITE, RecipeCategory.MISC, MegamonsItems.RAW_SLOWBRONITE, 1.0F, 200, "megastones");
         offerSmelting(exporter, ORE_SMELT_VENUSAURITE, RecipeCategory.MISC, MegamonsItems.RAW_VENUSAURITE, 1.0F, 200, "megastones");
+            // Gen 2
+        offerSmelting(exporter, ORE_SMELT_AMPHAROSITE, RecipeCategory.MISC, MegamonsItems.RAW_AMPHAROSITE, 1.0F, 200, "megastones");
+        // TODO: Add Heracronite
+        // TODO: Add Houndoominite
+        offerSmelting(exporter, ORE_SMELT_SCIZORITE, RecipeCategory.MISC, MegamonsItems.RAW_SCIZORITE, 1.0F, 200, "megastones");
+        offerSmelting(exporter, ORE_SMELT_STEELIXITE, RecipeCategory.MISC, MegamonsItems.RAW_STEELIXITE, 1.0F, 200, "megastones");
+        offerSmelting(exporter, ORE_SMELT_TYRANITARITE, RecipeCategory.MISC, MegamonsItems.RAW_TYRANITARITE, 1.0F, 200, "megastones");
+            // Gen 3
+        // TODO: Add Absolite
+        // TODO: Add Aggronite
+        // TODO: Add Altarianite
+        offerSmelting(exporter, ORE_SMELT_BANETTITE, RecipeCategory.MISC, MegamonsItems.RAW_BANETTITE, 1.0F, 200, "megastones");
+        // TODO: Add Blazikenite
+        // TODO: Add Cameruptite
+        offerSmelting(exporter, ORE_SMELT_GARDEVOIRITE, RecipeCategory.MISC, MegamonsItems.RAW_GARDEVOIRITE, 1.0F, 200, "megastones");
+        offerSmelting(exporter, ORE_SMELT_GLALITITE, RecipeCategory.MISC, MegamonsItems.RAW_GLALITITE, 1.0F, 200, "megastones");
+        // TODO: Add Latiasite
+        // TODO: Add Latiosite
+        offerSmelting(exporter, ORE_SMELT_MAWILITE, RecipeCategory.MISC, MegamonsItems.RAW_MAWILITE, 1.0F, 200, "megastones");
+        // TODO: Add Manechtite
+        // TODO: Add Medichamite
+        // TODO: Add Metagrossite
+        // TODO: Add Rayquazite
+        offerSmelting(exporter, ORE_SMELT_SABLENITE, RecipeCategory.MISC, MegamonsItems.RAW_SABLENITE, 1.0F, 200, "megastones");
+        // TODO: Add Salamencite
+        // TODO: Add Sceptilite
+        offerSmelting(exporter, ORE_SMELT_SHARPEDONITE, RecipeCategory.MISC, MegamonsItems.RAW_SHARPEDONITE, 1.0F, 200, "megastones");
+        // TODO: Add Swampertite
+        // Gen 4
+        // TODO: Add Abomasite
+        // TODO: Add Galladite
+        offerSmelting(exporter, ORE_SMELT_GARCHOMPITE, RecipeCategory.MISC, MegamonsItems.RAW_GARCHOMPITE, 1.0F, 200, "megastones");
+        // TODO: Add Lopunnite
+        // TODO: Add Lucarionite
+        // Gen 5
+        // TODO: Add Audinite
+        // Gen 6
+        // TODO: Add Diancite
+        // Gen 7+
+
+
         // Blasting
+            // Gen 1
         offerBlasting(exporter, ORE_SMELT_AERODACTYLITE, RecipeCategory.MISC, MegamonsItems.RAW_AERODACTYLITE, 1.0F, 100, "megastones");
         offerBlasting(exporter, ORE_SMELT_ALAKAZITE, RecipeCategory.MISC, MegamonsItems.RAW_ALAKAZITE, 1.0F, 100, "megastones");
         offerBlasting(exporter, ORE_SMELT_BEEDRILLITE, RecipeCategory.MISC, MegamonsItems.RAW_BEEDRILLITE, 1.0F, 100, "megastones");
@@ -202,6 +344,46 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerBlasting(exporter, ORE_SMELT_PINSIRITE, RecipeCategory.MISC, MegamonsItems.RAW_PINSIRITE, 1.0F, 100, "megastones");
         offerBlasting(exporter, ORE_SMELT_SLOWBRONITE, RecipeCategory.MISC, MegamonsItems.RAW_SLOWBRONITE, 1.0F, 100, "megastones");
         offerBlasting(exporter, ORE_SMELT_VENUSAURITE, RecipeCategory.MISC, MegamonsItems.RAW_VENUSAURITE, 1.0F, 100, "megastones");
+        // Gen 2
+        offerBlasting(exporter, ORE_SMELT_AMPHAROSITE, RecipeCategory.MISC, MegamonsItems.RAW_AMPHAROSITE, 1.0F, 100, "megastones");
+        // TODO: Add Heracronite
+        // TODO: Add Houndoominite
+        offerBlasting(exporter, ORE_SMELT_SCIZORITE, RecipeCategory.MISC, MegamonsItems.RAW_SCIZORITE, 1.0F, 100, "megastones");
+        offerBlasting(exporter, ORE_SMELT_STEELIXITE, RecipeCategory.MISC, MegamonsItems.RAW_STEELIXITE, 1.0F, 100, "megastones");
+        offerBlasting(exporter, ORE_SMELT_TYRANITARITE, RecipeCategory.MISC, MegamonsItems.RAW_TYRANITARITE, 1.0F, 100, "megastones");
+        // Gen 3
+        // TODO: Add Absolite
+        // TODO: Add Aggronite
+        // TODO: Add Altarianite
+        offerBlasting(exporter, ORE_SMELT_BANETTITE, RecipeCategory.MISC, MegamonsItems.RAW_BANETTITE, 1.0F, 100, "megastones");
+        // TODO: Add Blazikenite
+        // TODO: Add Cameruptite
+        offerBlasting(exporter, ORE_SMELT_GARDEVOIRITE, RecipeCategory.MISC, MegamonsItems.RAW_GARDEVOIRITE, 1.0F, 100, "megastones");
+        offerBlasting(exporter, ORE_SMELT_GLALITITE, RecipeCategory.MISC, MegamonsItems.RAW_GLALITITE, 1.0F, 100, "megastones");
+        // TODO: Add Latiasite
+        // TODO: Add Latiosite
+        offerBlasting(exporter, ORE_SMELT_MAWILITE, RecipeCategory.MISC, MegamonsItems.RAW_MAWILITE, 1.0F, 100, "megastones");
+        // TODO: Add Manechtite
+        // TODO: Add Medichamite
+        // TODO: Add Metagrossite
+        // TODO: Add Rayquazite
+        offerBlasting(exporter, ORE_SMELT_SABLENITE, RecipeCategory.MISC, MegamonsItems.RAW_SABLENITE, 1.0F, 100, "megastones");
+        // TODO: Add Salamencite
+        // TODO: Add Sceptilite
+        offerBlasting(exporter, ORE_SMELT_SHARPEDONITE, RecipeCategory.MISC, MegamonsItems.RAW_SHARPEDONITE, 1.0F, 100, "megastones");
+        // TODO: Add Swampertite
+        // Gen 4
+        // TODO: Add Abomasite
+        // TODO: Add Galladite
+        offerBlasting(exporter, ORE_SMELT_GARCHOMPITE, RecipeCategory.MISC, MegamonsItems.RAW_GARCHOMPITE, 1.0F, 100, "megastones");
+        // TODO: Add Lopunnite
+        // TODO: Add Lucarionite
+        // Gen 5
+        // TODO: Add Audinite
+        // Gen 6
+        // TODO: Add Diancite
+        // Gen 7+
+
 
         // Evo stones
         offerSmelting(exporter, ORE_SMELT_DAWN_EVO, RecipeCategory.MISC, CobblemonItems.DAWN_STONE, 1.0F, 200, "evo_stones_dawn");

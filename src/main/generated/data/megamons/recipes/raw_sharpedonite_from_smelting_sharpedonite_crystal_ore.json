@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "megastones",
+  "ingredient": {
+    "item": "megamons:sharpedonite_crystal_ore"
+  },
+  "result": "megamons:raw_sharpedonite"
+}

@@ -21,6 +21,7 @@ import java.util.List;
 public class ModConfiguredFeatures {
 
     // Geodes
+        // Gen 1
     public static final RegistryKey<ConfiguredFeature<?,?>> AERODACTYLITE_GEODE_KEY = registerKey("aerodactylite_geode") ;
     public static final RegistryKey<ConfiguredFeature<?,?>> ALAKAZITE_GEODE_KEY = registerKey("alakazite_geode") ;
     public static final RegistryKey<ConfiguredFeature<?,?>> BEEDRILLITE_GEODE_KEY = registerKey("beedrillite_geode") ;
@@ -36,6 +37,9 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?,?>> PINSIRITE_GEODE_KEY = registerKey("pinsirite_geode") ;
     public static final RegistryKey<ConfiguredFeature<?,?>> SLOWBRONITE_GEODE_KEY = registerKey("slowbronite_geode") ;
     public static final RegistryKey<ConfiguredFeature<?,?>> VENUSAURITE_GEODE_KEY = registerKey("venusaurite_geode") ;
+        // Gen 2
+
+
 
 // Register ore json files
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {

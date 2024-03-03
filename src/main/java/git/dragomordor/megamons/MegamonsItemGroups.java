@@ -43,18 +43,47 @@ public class MegamonsItemGroups {
                         entries.add(MegamonsItems.RAW_VENUSAURITE);
                             // Gen 2
                         entries.add(MegamonsItems.RAW_AMPHAROSITE);
-                        entries.add(MegamonsItems.RAW_BANETTITE);
-                        entries.add(MegamonsItems.RAW_GARCHOMPITE);
-                        entries.add(MegamonsItems.RAW_GARDEVOIRITE);
-                        entries.add(MegamonsItems.RAW_GLALITITE);
-                        entries.add(MegamonsItems.RAW_MAWILITE);
-                        entries.add(MegamonsItems.RAW_SABLENITE);
+                        // TODO: Add Heracroite
+                        // TODO: Add Houndoominite
                         entries.add(MegamonsItems.RAW_SCIZORITE);
-                        entries.add(MegamonsItems.RAW_SHARPEDONITE);
                         entries.add(MegamonsItems.RAW_STEELIXITE);
                         entries.add(MegamonsItems.RAW_TYRANITARITE);
-                            // Gen 3
+                        // Gen 3
+                        // TODO: Add Absolite
+                        // TODO: Add Aggronite
+                        // TODO: Add Altarianite
+                        entries.add(MegamonsItems.RAW_BANETTITE);
+                        // TODO: Add Blazikenite
+                        // TODO: Add Cameruptite
+                        entries.add(MegamonsItems.RAW_GARDEVOIRITE);
+                        entries.add(MegamonsItems.RAW_GLALITITE);
+                        // TODO: Add Latiasite
+                        // TODO: Add Latiosite
+                        entries.add(MegamonsItems.RAW_MAWILITE);
+                        // TODO: Add Manechtite
+                        // TODO: Add Medichamite
+                        // TODO: Add Metagrossite
+                        // TODO: Add Rayquazite
+                        entries.add(MegamonsItems.RAW_SABLENITE);
+                        // TODO: Add Salamencite
+                        // TODO: Add Sceptilite
+                        entries.add(MegamonsItems.RAW_SHARPEDONITE);
+                        // TODO: Add Swampertite
+                        // Gen 4
+                        // TODO: Add Abomasite
+                        // TODO: Add Galladite
+                        entries.add(MegamonsItems.RAW_GARCHOMPITE);
+                        // TODO: Add Lopunnite
+                        // TODO: Add Lucarionite
+                        // Gen 5
+                        // TODO: Add Audinite
+                        // Gen 6
+                        // TODO: Add Diancite
+                        // Gen 7+
+
+
                         // CutMegaStoneItems
+                        // Gen 1
                         entries.add(MegamonsItems.CUT_AERODACTYLITE);
                         entries.add(MegamonsItems.CUT_ALAKAZITE);
                         entries.add(MegamonsItems.CUT_BEEDRILLITE);
@@ -70,19 +99,46 @@ public class MegamonsItemGroups {
                         entries.add(MegamonsItems.CUT_PINSIRITE);
                         entries.add(MegamonsItems.CUT_SLOWBRONITE);
                         entries.add(MegamonsItems.CUT_VENUSAURITE);
-                            // Gen 2
+                        // Gen 2
                         entries.add(MegamonsItems.CUT_AMPHAROSITE);
-                        entries.add(MegamonsItems.CUT_BANETTITE);
-                        entries.add(MegamonsItems.CUT_GARCHOMPITE);
-                        entries.add(MegamonsItems.CUT_GARDEVOIRITE);
-                        entries.add(MegamonsItems.CUT_GLALITITE);
-                        entries.add(MegamonsItems.CUT_MAWILITE);
-                        entries.add(MegamonsItems.CUT_SABLENITE);
+                        // TODO: Add Heracroite
+                        // TODO: Add Houndoominite
                         entries.add(MegamonsItems.CUT_SCIZORITE);
-                        entries.add(MegamonsItems.CUT_SHARPEDONITE);
                         entries.add(MegamonsItems.CUT_STEELIXITE);
                         entries.add(MegamonsItems.CUT_TYRANITARITE);
-                            // Gen 3
+                        // Gen 3
+                        // TODO: Add Absolite
+                        // TODO: Add Aggronite
+                        // TODO: Add Altarianite
+                        entries.add(MegamonsItems.CUT_BANETTITE);
+                        // TODO: Add Blazikenite
+                        // TODO: Add Cameruptite
+                        entries.add(MegamonsItems.CUT_GARDEVOIRITE);
+                        entries.add(MegamonsItems.CUT_GLALITITE);
+                        // TODO: Add Latiasite
+                        // TODO: Add Latiosite
+                        entries.add(MegamonsItems.CUT_MAWILITE);
+                        // TODO: Add Manechtite
+                        // TODO: Add Medichamite
+                        // TODO: Add Metagrossite
+                        // TODO: Add Rayquazite
+                        entries.add(MegamonsItems.CUT_SABLENITE);
+                        // TODO: Add Salamencite
+                        // TODO: Add Sceptilite
+                        entries.add(MegamonsItems.CUT_SHARPEDONITE);
+                        // TODO: Add Swampertite
+                        // Gen 4
+                        // TODO: Add Abomasite
+                        // TODO: Add Galladite
+                        entries.add(MegamonsItems.CUT_GARCHOMPITE);
+                        // TODO: Add Lopunnite
+                        // TODO: Add Lucarionite
+                        // Gen 5
+                        // TODO: Add Audinite
+                        // Gen 6
+                        // TODO: Add Diancite
+                        // Gen 7+
+
 
                     // Blocks
 //                        // Stone ore
@@ -140,6 +196,42 @@ public class MegamonsItemGroups {
                         entries.add(MegamonsBlocks.ORE_CRYSTAL_SLOWBRONITE);
                         entries.add(MegamonsBlocks.ORE_CRYSTAL_VENUSAURITE);
                             // Gen 2
+                        entries.add(MegamonsBlocks.ORE_CRYSTAL_AMPHAROSITE);
+                        // TODO: Add Heracroite
+                        // TODO: Add Houndoominite
+                        entries.add(MegamonsBlocks.ORE_CRYSTAL_SCIZORITE);
+                        entries.add(MegamonsBlocks.ORE_CRYSTAL_STEELIXITE);
+                        entries.add(MegamonsBlocks.ORE_CRYSTAL_TYRANITARITE);
+                        // Gen 3
+                        // TODO: Add Absolite
+                        // TODO: Add Aggronite
+                        // TODO: Add Altarianite
+                        entries.add(MegamonsBlocks.ORE_CRYSTAL_BANETTITE);
+                        // TODO: Add Blazikenite
+                        // TODO: Add Cameruptite
+                        entries.add(MegamonsBlocks.ORE_CRYSTAL_GARDEVOIRITE);
+                        entries.add(MegamonsBlocks.ORE_CRYSTAL_GLALITITE);
+                        // TODO: Add Latiasite
+                        // TODO: Add Latiosite
+                        entries.add(MegamonsBlocks.ORE_CRYSTAL_MAWILITE);
+                        // TODO: Add Manechtite
+                        // TODO: Add Medichamite
+                        // TODO: Add Metagrossite
+                        // TODO: Add Rayquazite
+                        entries.add(MegamonsBlocks.ORE_CRYSTAL_SABLENITE);
+                        // TODO: Add Swampertite
+                        // Gen 4
+                        // TODO: Add Abomasite
+                        // TODO: Add Galladite
+                        entries.add(MegamonsBlocks.ORE_CRYSTAL_GARCHOMPITE);
+                        // TODO: Add Lopunnite
+                        // TODO: Add Lucarionite
+                        // Gen 5
+                        // TODO: Add Audinite
+                        // Gen 6
+                        // TODO: Add Diancite
+                        // Gen 7+
+
 
                         // Geode Crystal Evo ores
                         entries.add(MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE);

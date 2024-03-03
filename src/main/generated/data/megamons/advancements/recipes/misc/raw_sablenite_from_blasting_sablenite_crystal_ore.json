@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sablenite_crystal_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megamons:sablenite_crystal_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:raw_sablenite_from_blasting_sablenite_crystal_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sablenite_crystal_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:raw_sablenite_from_blasting_sablenite_crystal_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

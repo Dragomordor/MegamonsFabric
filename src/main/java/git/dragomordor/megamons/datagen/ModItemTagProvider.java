@@ -125,16 +125,55 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ModTags.Items.GEN2_CUT_MEGASTONES)
                 .add(MegamonsItems.CUT_AMPHAROSITE)
+                // TODO: Add Heracronite
+                // TODO: Add Houndoominite
+                .add(MegamonsItems.CUT_SCIZORITE)
+                .add(MegamonsItems.CUT_STEELIXITE)
+                .add(MegamonsItems.CUT_TYRANITARITE)
+                ;
+
+
+
+        getOrCreateTagBuilder(ModTags.Items.GEN3_CUT_MEGASTONES)
+                // TODO: Add Absolite
+                // TODO: Add Aggronite
+                // TODO: Add Altarianite
                 .add(MegamonsItems.CUT_BANETTITE)
-                .add(MegamonsItems.CUT_GARCHOMPITE)
+                // TODO: Add Blazikenite
+                // TODO: Add Cameruptite
                 .add(MegamonsItems.CUT_GARDEVOIRITE)
                 .add(MegamonsItems.CUT_GLALITITE)
+                // TODO: Add Latiasite
+                // TODO: Add Latiosite
                 .add(MegamonsItems.CUT_MAWILITE)
+                // TODO: Add Manechtite
+                // TODO: Add Medichamite
+                // TODO: Add Metagrossite
+                // TODO: Add Rayquazite
                 .add(MegamonsItems.CUT_SABLENITE)
-                .add(MegamonsItems.CUT_SCIZORITE)
+                // TODO: Add Salamencite
+                // TODO: Add Sceptilite
                 .add(MegamonsItems.CUT_SHARPEDONITE)
-                .add(MegamonsItems.CUT_STEELIXITE)
-                .add(MegamonsItems.CUT_TYRANITARITE);
+                // TODO: Add Swampertite
+                ;
+
+        getOrCreateTagBuilder(ModTags.Items.GEN4_CUT_MEGASTONES)
+                // TODO: Add Abomasite
+                // TODO: Add Galladite
+                .add(MegamonsItems.CUT_GARCHOMPITE)
+                // TODO: Add Lopunnite
+                // TODO: Add Lucarionite
+                ;
+
+        getOrCreateTagBuilder(ModTags.Items.GEN5_CUT_MEGASTONES)
+        // TODO: Add Audinite
+        ;
+
+
+        getOrCreateTagBuilder(ModTags.Items.GEN6_CUT_MEGASTONES)
+        // Gen 6
+        // TODO: Add Diancite
+        ;
 
 
     }

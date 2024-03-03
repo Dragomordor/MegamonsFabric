@@ -17,6 +17,7 @@ import java.util.List;
 
 public class ModPlacedFeatures {
     // Geodes
+        // Gen 1
     public static final RegistryKey<PlacedFeature> AERODACTYLITE_GEODE_PLACED_KEY = registerKey("aerodactylite_geode_placed");
     public static final RegistryKey<PlacedFeature> ALAKAZITE_GEODE_PLACED_KEY = registerKey("alakazite_geode_placed");
     public static final RegistryKey<PlacedFeature> BEEDRILLITE_GEODE_PLACED_KEY = registerKey("beedrillite_geode_placed");
@@ -32,6 +33,11 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> PINSIRITE_GEODE_PLACED_KEY = registerKey("pinsirite_geode_placed");
     public static final RegistryKey<PlacedFeature> SLOWBRONITE_GEODE_PLACED_KEY = registerKey("slowbronite_geode_placed");
     public static final RegistryKey<PlacedFeature> VENUSAURITE_GEODE_PLACED_KEY = registerKey("venusaurite_geode_placed");
+        // Gen 2
+
+
+
+
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);

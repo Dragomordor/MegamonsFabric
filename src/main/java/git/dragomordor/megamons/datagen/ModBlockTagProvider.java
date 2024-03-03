@@ -55,6 +55,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 //                .add(MegamonsBlocks.ORE_DEEPSLATE_SLOWBRONITE)
 //                .add(MegamonsBlocks.ORE_DEEPSLATE_VENUSAURITE)
                 // Crystal ore
+                    // Gen 1
                 .add(MegamonsBlocks.ORE_CRYSTAL_AERODACTYLITE)
                 .add(MegamonsBlocks.ORE_CRYSTAL_ALAKAZITE)
                 .add(MegamonsBlocks.ORE_CRYSTAL_BEEDRILLITE)
@@ -70,6 +71,45 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(MegamonsBlocks.ORE_CRYSTAL_PINSIRITE)
                 .add(MegamonsBlocks.ORE_CRYSTAL_SLOWBRONITE)
                 .add(MegamonsBlocks.ORE_CRYSTAL_VENUSAURITE)
+                    // Gen 2
+                .add(MegamonsBlocks.ORE_CRYSTAL_AMPHAROSITE)
+                // TODO: Add Heracronite
+                // TODO: Add Houndoominite
+                .add(MegamonsBlocks.ORE_CRYSTAL_SCIZORITE)
+                .add(MegamonsBlocks.ORE_CRYSTAL_STEELIXITE)
+                .add(MegamonsBlocks.ORE_CRYSTAL_TYRANITARITE)
+                    // Gen 3
+                // TODO: Add Absolite
+                // TODO: Add Aggronite
+                // TODO: Add Altarianite
+                .add(MegamonsBlocks.ORE_CRYSTAL_BANETTITE)
+                // TODO: Add Blazikenite
+                // TODO: Add Cameruptite
+                .add(MegamonsBlocks.ORE_CRYSTAL_GARDEVOIRITE)
+                .add(MegamonsBlocks.ORE_CRYSTAL_GLALITITE)
+                // TODO: Add Latiasite
+                // TODO: Add Latiosite
+                .add(MegamonsBlocks.ORE_CRYSTAL_MAWILITE)
+                // TODO: Add Manechtite
+                // TODO: Add Medichamite
+                // TODO: Add Metagrossite
+                // TODO: Add Rayquazite
+                .add(MegamonsBlocks.ORE_CRYSTAL_SABLENITE)
+                // TODO: Add Salamencite
+                // TODO: Add Sceptilite
+                .add(MegamonsBlocks.ORE_CRYSTAL_SHARPEDONITE)
+                // TODO: Add Swampertite
+                    // Gen 4
+                // TODO: Add Abomasite
+                // TODO: Add Galladite
+                .add(MegamonsBlocks.ORE_CRYSTAL_GARCHOMPITE)
+                // TODO: Add Lopunnite
+                // TODO: Add Lucarionite
+                    // Gen 5
+                // TODO: Add Audinite
+                    // Gen 6
+                // TODO: Add Diancite
+                    // Gen 7+
 
                 ;
 
@@ -113,6 +153,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 //               .add(MegamonsBlocks.ORE_DEEPSLATE_SLOWBRONITE)
 //               .add(MegamonsBlocks.ORE_DEEPSLATE_VENUSAURITE)
                // Crystal ore
+               // Gen 1
                .add(MegamonsBlocks.ORE_CRYSTAL_AERODACTYLITE)
                .add(MegamonsBlocks.ORE_CRYSTAL_ALAKAZITE)
                .add(MegamonsBlocks.ORE_CRYSTAL_BEEDRILLITE)
@@ -128,6 +169,45 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                .add(MegamonsBlocks.ORE_CRYSTAL_PINSIRITE)
                .add(MegamonsBlocks.ORE_CRYSTAL_SLOWBRONITE)
                .add(MegamonsBlocks.ORE_CRYSTAL_VENUSAURITE)
+               // Gen 2
+               .add(MegamonsBlocks.ORE_CRYSTAL_AMPHAROSITE)
+               // TODO: Add Heracronite
+               // TODO: Add Houndoominite
+               .add(MegamonsBlocks.ORE_CRYSTAL_SCIZORITE)
+               .add(MegamonsBlocks.ORE_CRYSTAL_STEELIXITE)
+               .add(MegamonsBlocks.ORE_CRYSTAL_TYRANITARITE)
+               // Gen 3
+               // TODO: Add Absolite
+               // TODO: Add Aggronite
+               // TODO: Add Altarianite
+               .add(MegamonsBlocks.ORE_CRYSTAL_BANETTITE)
+               // TODO: Add Blazikenite
+               // TODO: Add Cameruptite
+               .add(MegamonsBlocks.ORE_CRYSTAL_GARDEVOIRITE)
+               .add(MegamonsBlocks.ORE_CRYSTAL_GLALITITE)
+               // TODO: Add Latiasite
+               // TODO: Add Latiosite
+               .add(MegamonsBlocks.ORE_CRYSTAL_MAWILITE)
+               // TODO: Add Manechtite
+               // TODO: Add Medichamite
+               // TODO: Add Metagrossite
+               // TODO: Add Rayquazite
+               .add(MegamonsBlocks.ORE_CRYSTAL_SABLENITE)
+               // TODO: Add Salamencite
+               // TODO: Add Sceptilite
+               .add(MegamonsBlocks.ORE_CRYSTAL_SHARPEDONITE)
+               // TODO: Add Swampertite
+               // Gen 4
+               // TODO: Add Abomasite
+               // TODO: Add Galladite
+               .add(MegamonsBlocks.ORE_CRYSTAL_GARCHOMPITE)
+               // TODO: Add Lopunnite
+               // TODO: Add Lucarionite
+               // Gen 5
+               // TODO: Add Audinite
+               // Gen 6
+               // TODO: Add Diancite
+               // Gen 7+
 
                // Geode Crystal Evo ores
                .add(MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE)
@@ -205,6 +285,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 //                .add(MegamonsBlocks.ORE_DEEPSLATE_SLOWBRONITE)
 //                .add(MegamonsBlocks.ORE_DEEPSLATE_VENUSAURITE)
                 // Crystal ore
+                // Gen 1
                 .add(MegamonsBlocks.ORE_CRYSTAL_AERODACTYLITE)
                 .add(MegamonsBlocks.ORE_CRYSTAL_ALAKAZITE)
                 .add(MegamonsBlocks.ORE_CRYSTAL_BEEDRILLITE)
@@ -220,6 +301,45 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(MegamonsBlocks.ORE_CRYSTAL_PINSIRITE)
                 .add(MegamonsBlocks.ORE_CRYSTAL_SLOWBRONITE)
                 .add(MegamonsBlocks.ORE_CRYSTAL_VENUSAURITE)
+                // Gen 2
+                .add(MegamonsBlocks.ORE_CRYSTAL_AMPHAROSITE)
+                // TODO: Add Heracronite
+                // TODO: Add Houndoominite
+                .add(MegamonsBlocks.ORE_CRYSTAL_SCIZORITE)
+                .add(MegamonsBlocks.ORE_CRYSTAL_STEELIXITE)
+                .add(MegamonsBlocks.ORE_CRYSTAL_TYRANITARITE)
+                // Gen 3
+                // TODO: Add Absolite
+                // TODO: Add Aggronite
+                // TODO: Add Altarianite
+                .add(MegamonsBlocks.ORE_CRYSTAL_BANETTITE)
+                // TODO: Add Blazikenite
+                // TODO: Add Cameruptite
+                .add(MegamonsBlocks.ORE_CRYSTAL_GARDEVOIRITE)
+                .add(MegamonsBlocks.ORE_CRYSTAL_GLALITITE)
+                // TODO: Add Latiasite
+                // TODO: Add Latiosite
+                .add(MegamonsBlocks.ORE_CRYSTAL_MAWILITE)
+                // TODO: Add Manechtite
+                // TODO: Add Medichamite
+                // TODO: Add Metagrossite
+                // TODO: Add Rayquazite
+                .add(MegamonsBlocks.ORE_CRYSTAL_SABLENITE)
+                // TODO: Add Salamencite
+                // TODO: Add Sceptilite
+                .add(MegamonsBlocks.ORE_CRYSTAL_SHARPEDONITE)
+                // TODO: Add Swampertite
+                // Gen 4
+                // TODO: Add Abomasite
+                // TODO: Add Galladite
+                .add(MegamonsBlocks.ORE_CRYSTAL_GARCHOMPITE)
+                // TODO: Add Lopunnite
+                // TODO: Add Lucarionite
+                // Gen 5
+                // TODO: Add Audinite
+                // Gen 6
+                // TODO: Add Diancite
+                // Gen 7+
 
                 ;
 

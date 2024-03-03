@@ -8,6 +8,7 @@ import net.minecraft.item.Item;
 public class HeldMegastoneMegaSpeciesUtil {
 
     public static Species getApplicablePokemonPreEvolutionSpeciesFromMegastone(Item heldMegastone) {
+        // TODO: improve this method
 
         // Gen 1
         // Alakazite
@@ -70,42 +71,17 @@ public class HeldMegastoneMegaSpeciesUtil {
         if (heldMegastone.equals(MegamonsItems.CUT_VENUSAURITE)) {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.VenusauritePreEvolution);
         }
+
         // Gen 2
         // Ampharos
         if (heldMegastone.equals(MegamonsItems.CUT_AMPHAROSITE)) {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.AmpharositePreEvolution);
         }
-        // Banette
-        if (heldMegastone.equals(MegamonsItems.CUT_BANETTITE)) {
-            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.BanettitePreEvolution);
-        }
-        // Gardevoir
-        if (heldMegastone.equals(MegamonsItems.CUT_GARDEVOIRITE)) {
-            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GardevoiritePreEvolution);
-        }
-        // Garchomp
-        if (heldMegastone.equals(MegamonsItems.CUT_GARCHOMPITE)) {
-            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GarchompitePreEvolution);
-        }
-        // Glalie
-        if (heldMegastone.equals(MegamonsItems.CUT_GLALITITE)) {
-            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GlalititePreEvolution);
-        }
-        // Mawile
-        if (heldMegastone.equals(MegamonsItems.CUT_MAWILITE)) {
-            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.MawilitePreEvolution);
-        }
-        // Sableye
-        if (heldMegastone.equals(MegamonsItems.CUT_SABLENITE)) {
-            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.SablenitePreEvolution);
-        }
+        // TODO: Add Heracroite
+        // TODO: Add Houndoominite
         // Scizor
         if (heldMegastone.equals(MegamonsItems.CUT_SCIZORITE)) {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.ScizoritePreEvolution);
-        }
-        // Sharpedo
-        if (heldMegastone.equals(MegamonsItems.CUT_SHARPEDONITE)) {
-            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.SharpedonitePreEvolution);
         }
         // Steelix
         if (heldMegastone.equals(MegamonsItems.CUT_STEELIXITE)) {
@@ -115,6 +91,59 @@ public class HeldMegastoneMegaSpeciesUtil {
         if (heldMegastone.equals(MegamonsItems.CUT_TYRANITARITE)) {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.TyranitaritePreEvolution);
         }
+        // Gen 3
+        // TODO: Add Absolite
+        // TODO: Add Aggronite
+        // TODO: Add Altarianite
+        // Banette
+        if (heldMegastone.equals(MegamonsItems.CUT_BANETTITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.BanettitePreEvolution);
+        }
+        // TODO: Add Blazikenite
+        // TODO: Add Cameruptite
+        // Gardevoir
+        if (heldMegastone.equals(MegamonsItems.CUT_GARDEVOIRITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GardevoiritePreEvolution);
+        }
+        // Glalie
+        if (heldMegastone.equals(MegamonsItems.CUT_GLALITITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GlalititePreEvolution);
+        }
+        // TODO: Add Latiasite
+        // TODO: Add Latiosite
+        // Mawile
+        if (heldMegastone.equals(MegamonsItems.CUT_MAWILITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.MawilitePreEvolution);
+        }
+        // TODO: Add Manechtite
+        // TODO: Add Medichamite
+        // TODO: Add Metagrossite
+        // TODO: Add Rayquazite
+        // Sableye
+        if (heldMegastone.equals(MegamonsItems.CUT_SABLENITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.SablenitePreEvolution);
+        }
+        // TODO: Add Salamencite
+        // TODO: Add Sceptilite
+        // Sharpedo
+        if (heldMegastone.equals(MegamonsItems.CUT_SHARPEDONITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.SharpedonitePreEvolution);
+        }
+        // TODO: Add Swampertite
+        // Gen 4
+        // TODO: Add Abomasite
+        // TODO: Add Galladite
+        // Garchomp
+        if (heldMegastone.equals(MegamonsItems.CUT_GARCHOMPITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GarchompitePreEvolution);
+        }
+        // TODO: Add Lopunnite
+        // TODO: Add Lucarionite
+        // Gen 5
+        // TODO: Add Audinite
+        // Gen 6
+        // TODO: Add Diancite
+        // Gen 7+
 
 
         // Default, held item is not in mega stone list (need to return something, not null)
@@ -122,6 +151,8 @@ public class HeldMegastoneMegaSpeciesUtil {
     }
 
     public static Species getApplicablePokemonPostEvolutionSpeciesFromMegastone(Item heldMegastone) {
+        // TODO: improve this method
+
 
         // Gen 1
         // Alakazite
@@ -185,42 +216,17 @@ public class HeldMegastoneMegaSpeciesUtil {
         if (heldMegastone.equals(MegamonsItems.CUT_VENUSAURITE)) {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.VenusauritePostEvolution);
         }
+
         // Gen 2
         // Ampharos
         if (heldMegastone.equals(MegamonsItems.CUT_AMPHAROSITE)) {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.AmpharositePostEvolution);
         }
-        // Banette
-        if (heldMegastone.equals(MegamonsItems.CUT_BANETTITE)) {
-            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.BanettitePostEvolution);
-        }
-        // Gardevoir
-        if (heldMegastone.equals(MegamonsItems.CUT_GARDEVOIRITE)) {
-            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GardevoiritePostEvolution);
-        }
-        // Garchomp
-        if (heldMegastone.equals(MegamonsItems.CUT_GARCHOMPITE)) {
-            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GarchompitePostEvolution);
-        }
-        // Glalie
-        if (heldMegastone.equals(MegamonsItems.CUT_GLALITITE)) {
-            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GlalititePostEvolution);
-        }
-        // Mawile
-        if (heldMegastone.equals(MegamonsItems.CUT_MAWILITE)) {
-            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.MawilitePostEvolution);
-        }
-        // Sableye
-        if (heldMegastone.equals(MegamonsItems.CUT_SABLENITE)) {
-            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.SablenitePostEvolution);
-        }
+        // TODO: Add Heracroite
+        // TODO: Add Houndoominite
         // Scizor
         if (heldMegastone.equals(MegamonsItems.CUT_SCIZORITE)) {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.ScizoritePostEvolution);
-        }
-        // Sharpedo
-        if (heldMegastone.equals(MegamonsItems.CUT_SHARPEDONITE)) {
-            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.SharpedonitePostEvolution);
         }
         // Steelix
         if (heldMegastone.equals(MegamonsItems.CUT_STEELIXITE)) {
@@ -231,6 +237,59 @@ public class HeldMegastoneMegaSpeciesUtil {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.TyranitaritePostEvolution);
         }
         // Gen 3
+        // TODO: Add Absolite
+        // TODO: Add Aggronite
+        // TODO: Add Altarianite
+        // Banette
+        if (heldMegastone.equals(MegamonsItems.CUT_BANETTITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.BanettitePostEvolution);
+        }
+        // TODO: Add Blazikenite
+        // TODO: Add Cameruptite
+        // Gardevoir
+        if (heldMegastone.equals(MegamonsItems.CUT_GARDEVOIRITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GardevoiritePostEvolution);
+        }
+        // Glalie
+        if (heldMegastone.equals(MegamonsItems.CUT_GLALITITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GlalititePostEvolution);
+        }
+        // TODO: Add Latiasite
+        // TODO: Add Latiosite
+        // Mawile
+        if (heldMegastone.equals(MegamonsItems.CUT_MAWILITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.MawilitePostEvolution);
+        }
+        // TODO: Add Manechtite
+        // TODO: Add Medichamite
+        // TODO: Add Metagrossite
+        // TODO: Add Rayquazite
+        // Sableye
+        if (heldMegastone.equals(MegamonsItems.CUT_SABLENITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.SablenitePostEvolution);
+        }
+        // TODO: Add Salamencite
+        // TODO: Add Sceptilite
+        // Sharpedo
+        if (heldMegastone.equals(MegamonsItems.CUT_SHARPEDONITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.SharpedonitePostEvolution);
+        }
+        // TODO: Add Swampertite
+        // Gen 4
+        // TODO: Add Abomasite
+        // TODO: Add Galladite
+        // Garchomp
+        if (heldMegastone.equals(MegamonsItems.CUT_GARCHOMPITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GarchompitePostEvolution);
+        }
+        // TODO: Add Lopunnite
+        // TODO: Add Lucarionite
+        // Gen 5
+        // TODO: Add Audinite
+        // Gen 6
+        // TODO: Add Diancite
+        // Gen 7+
+
 
         // Default, held item is not in mega stone list (need to return something, not null)
         return PokemonSpecies.INSTANCE.getByName("weedle");

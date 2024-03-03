@@ -132,20 +132,6 @@ public class MegaSpeciesUtil {
     // Gen 7+
 
 
-
-
-
-
-
-
-
-
-
-    // Gen 3
-
-
-
-
     // Mega Species List
     private static final List<String> MEGA_SPECIES = new ArrayList<>();
     static {
@@ -166,22 +152,45 @@ public class MegaSpeciesUtil {
         MEGA_SPECIES.add(SlowbronitePostEvolution);
         MEGA_SPECIES.add(VenusauritePostEvolution);
         // Gen 2
-
-
-
-
         MEGA_SPECIES.add(AmpharositePostEvolution);
-        MEGA_SPECIES.add(BanettitePostEvolution);
-        MEGA_SPECIES.add(GardevoiritePostEvolution);
-        MEGA_SPECIES.add(GarchompitePostEvolution);
-        MEGA_SPECIES.add(GlalititePostEvolution);
-        MEGA_SPECIES.add(MawilitePostEvolution);
-        MEGA_SPECIES.add(SablenitePostEvolution);
+        // TODO: Add Heracronite
+        // TODO: Add Houndoominite
         MEGA_SPECIES.add(ScizoritePostEvolution);
-        MEGA_SPECIES.add(SharpedonitePostEvolution);
         MEGA_SPECIES.add(SteelixitePostEvolution);
         MEGA_SPECIES.add(TyranitaritePostEvolution);
         // Gen 3
+        // TODO: Add Absolite
+        // TODO: Add Aggronite
+        // TODO: Add Altarianite
+        MEGA_SPECIES.add(BanettitePostEvolution);
+        // TODO: Add Blazikenite
+        // TODO: Add Cameruptite
+        MEGA_SPECIES.add(GardevoiritePostEvolution);
+        MEGA_SPECIES.add(GlalititePostEvolution);
+        // TODO: Add Latiasite
+        // TODO: Add Latiosite
+        MEGA_SPECIES.add(MawilitePostEvolution);
+        // TODO: Add Manechtite
+        // TODO: Add Medichamite
+        // TODO: Add Metagrossite
+        // TODO: Add Rayquazite
+        MEGA_SPECIES.add(SablenitePostEvolution);
+        // TODO: Add Salamencite
+        // TODO: Add Sceptilite
+        MEGA_SPECIES.add(SharpedonitePostEvolution);
+        // TODO: Add Swampertite
+        // Gen 4
+        // TODO: Add Abomasite
+        // TODO: Add Galladite
+        MEGA_SPECIES.add(GarchompitePostEvolution);
+        // TODO: Add Lopunnite
+        // TODO: Add Lucarionite
+        // Gen 5
+        // TODO: Add Audinite
+        // Gen 6
+        // TODO: Add Diancite
+        // Gen 7+
+
     }
 
     public static List<String> getMegaSpecies() {
@@ -190,6 +199,9 @@ public class MegaSpeciesUtil {
 
 
     public static String getPreSpeciesFromPostSpecies(String pokemonPostSpecies) {
+        // TODO: improve this method
+
+
         String pokemonPreSpecies = "weedle";
         // Gen 1
         if (pokemonPostSpecies.equals(AlakazitePostEvolution)) {
@@ -239,42 +251,66 @@ public class MegaSpeciesUtil {
         }
 
         // Gen 2
-
         if (pokemonPostSpecies.equals(AmpharositePostEvolution)) {
-           pokemonPreSpecies = AmpharositePreEvolution;
+            pokemonPreSpecies = AmpharositePreEvolution;
         }
+        // TODO: Add Heracroite
+        // TODO: Add Houndoominite
+        if (pokemonPostSpecies.equals(ScizoritePostEvolution)) {
+            pokemonPreSpecies = ScizoritePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(SteelixitePostEvolution)) {
+            pokemonPreSpecies = SteelixitePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(TyranitaritePostEvolution)) {
+            pokemonPreSpecies = TyranitaritePreEvolution;
+        }
+        // Gen 3
+        // TODO: Add Absolite
+        // TODO: Add Aggronite
+        // TODO: Add Altarianite
         if (pokemonPostSpecies.equals(BanettitePostEvolution)) {
            pokemonPreSpecies = BanettitePreEvolution;
         }
+        // TODO: Add Blazikenite
+        // TODO: Add Cameruptite
         if (pokemonPostSpecies.equals(GardevoiritePostEvolution)) {
-           pokemonPreSpecies = GardevoiritePreEvolution;
-        }
-        if (pokemonPostSpecies.equals(GarchompitePostEvolution)) {
-           pokemonPreSpecies = GarchompitePreEvolution;
+            pokemonPreSpecies = GardevoiritePreEvolution;
         }
         if (pokemonPostSpecies.equals(GlalititePostEvolution)) {
-           pokemonPreSpecies = GlalititePreEvolution;
+            pokemonPreSpecies = GlalititePreEvolution;
         }
+        // TODO: Add Latiasite
+        // TODO: Add Latiosite
         if (pokemonPostSpecies.equals(MawilitePostEvolution)) {
-           pokemonPreSpecies = MawilitePreEvolution;
+            pokemonPreSpecies = MawilitePreEvolution;
         }
+        // TODO: Add Manechtite
+        // TODO: Add Medichamite
+        // TODO: Add Metagrossite
+        // TODO: Add Rayquazite
         if (pokemonPostSpecies.equals(SablenitePostEvolution)) {
-           pokemonPreSpecies = SablenitePreEvolution;
+            pokemonPreSpecies = SablenitePreEvolution;
         }
-        if (pokemonPostSpecies.equals(ScizoritePostEvolution)) {
-           pokemonPreSpecies = ScizoritePreEvolution;
-        }
+        // TODO: Add Salamencite
+        // TODO: Add Sceptilite
         if (pokemonPostSpecies.equals(SharpedonitePostEvolution)) {
-           pokemonPreSpecies = SharpedonitePreEvolution;
+            pokemonPreSpecies = SharpedonitePreEvolution;
         }
-        if (pokemonPostSpecies.equals(SteelixitePostEvolution)) {
-           pokemonPreSpecies = SteelixitePreEvolution;
+        // TODO: Add Swampertite
+        // Gen 4
+        // TODO: Add Abomasite
+        // TODO: Add Galladite
+        if (pokemonPostSpecies.equals(GarchompitePostEvolution)) {
+            pokemonPreSpecies = GarchompitePreEvolution;
         }
-        if (pokemonPostSpecies.equals(TyranitaritePostEvolution)) {
-           pokemonPreSpecies = TyranitaritePreEvolution;
-        }
-
-        // Gen 3
+        // TODO: Add Lopunnite
+        // TODO: Add Lucarionite
+        // Gen 5
+        // TODO: Add Audinite
+        // Gen 6
+        // TODO: Add Diancite
+        // Gen 7+
 
         return pokemonPreSpecies;
     }
