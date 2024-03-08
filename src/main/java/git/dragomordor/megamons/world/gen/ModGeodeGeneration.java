@@ -88,7 +88,8 @@ public class ModGeodeGeneration {
         // TODO: Add Swampertite
         // Gen 4
         // TODO: Add Abomasite
-        // TODO: Add Galladite
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_DECORATION, ModPlacedFeatures.GALLADIITE_GEODE_PLACED_KEY);
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
                 GenerationStep.Feature.UNDERGROUND_DECORATION, ModPlacedFeatures.GARCHOMPITE_GEODE_PLACED_KEY);
         // TODO: Add Lopunnite

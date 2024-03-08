@@ -17,7 +17,7 @@ import java.util.List;
 
 public class ModPlacedFeatures {
 
-    private static final int GeodeCount = 26;
+    private static final int GeodeCount = 27;
     private static final int GeodeRarity = 40;
 
 
@@ -68,7 +68,7 @@ public class ModPlacedFeatures {
     // TODO: Add Swampertite
     // Gen 4
     // TODO: Add Abomasite
-    // TODO: Add Galladite
+    public static final RegistryKey<PlacedFeature> GALLADIITE_GEODE_PLACED_KEY = registerKey("galladite_geode_placed");
     public static final RegistryKey<PlacedFeature> GARCHOMPITE_GEODE_PLACED_KEY = registerKey("garchompite_geode_placed");
     // TODO: Add Lopunnite
     // TODO: Add Lucarionite
@@ -181,7 +181,9 @@ public class ModPlacedFeatures {
         // TODO: Add Swampertite
         // Gen 4
         // TODO: Add Abomasite
-        // TODO: Add Galladite
+        register(context, GALLADIITE_GEODE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.GALLADITE_GEODE_KEY),
+                RarityFilterPlacementModifier.of(rarityMultiplier), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.aboveBottom(6),
+                        YOffset.fixed(30)), BiomePlacementModifier.of());
         register(context, GARCHOMPITE_GEODE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.GARCHOMPITE_GEODE_KEY),
                 RarityFilterPlacementModifier.of(rarityMultiplier), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.aboveBottom(6),
                         YOffset.fixed(30)), BiomePlacementModifier.of());

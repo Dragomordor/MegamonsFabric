@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "megamons:cut_banettite"
+    },
+    "title": {
+      "translate": "advancements.megamons.gen3_megastone.title"
+    },
+    "description": {
+      "translate": "advancements.megamons.gen3_megastone.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "megamons:mega_ore_or_stone",
+
+  "criteria": {
+    "has_any_gen3_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "megamons:gen3_cut_megastones"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_any_gen3_stone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

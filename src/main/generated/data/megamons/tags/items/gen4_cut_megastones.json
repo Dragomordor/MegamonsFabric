@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "megamons:cut_galladite",
     "megamons:cut_garchompite"
   ]
 }

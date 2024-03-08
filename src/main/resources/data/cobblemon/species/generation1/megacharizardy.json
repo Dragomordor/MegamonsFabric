@@ -18,16 +18,13 @@
     "catchRate": 45,
     "maleRatio": 0.875,
     "shoulderMountable": false,
-    "features": [
-      "clone"
-    ],
     "baseExperienceYield": 267,
     "experienceGroup": "medium_slow",
     "eggCycles": 20,
     "eggGroups": [
       "monster",
       "dragon"
-    ],
+    ], 
     "drops": {
       "amount": "2",
       "entries": [
@@ -46,7 +43,12 @@
       "resting": {
         "canSleep": true,
         "depth": "normal",
-        "light": "0-4"
+        "light": "0-4",
+        "moving": {
+          "fly": {
+            "canFly": true
+          }
+        }
       },
       "moving": {
         "fly": {
@@ -285,7 +287,7 @@
         "requiredContext": "megamons:megacuff"
       }
     ],
-    "baseScale": 1.35,
+    "baseScale": 1,
     "hitbox": {
       "width": 1,
       "height": 2.1,

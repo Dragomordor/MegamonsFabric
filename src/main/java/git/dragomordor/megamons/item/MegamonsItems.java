@@ -57,7 +57,7 @@ public class MegamonsItems {
     // TODO: Add Swampertite
         // Gen 4
     // TODO: Add Abomasite
-    // TODO: Add Galladite
+    public static final RawMegaStoneItem RAW_GALLADITE = registerRawMegaStoneItem("raw_galladite", new RawMegaStoneItem());
     public static final RawMegaStoneItem RAW_GARCHOMPITE = registerRawMegaStoneItem("raw_garchompite", new RawMegaStoneItem());
     // TODO: Add Lopunnite
     // TODO: Add Lucarionite
@@ -116,6 +116,7 @@ public class MegamonsItems {
     // Gen 4
     // TODO: Add Abomasite
     // TODO: Add Galladite
+    public static final CutMegaStoneItem CUT_GALLADITE = registerCutMegaStoneItem("cut_galladite", new CutMegaStoneItem());
     public static final CutMegaStoneItem CUT_GARCHOMPITE = registerCutMegaStoneItem("cut_garchompite", new CutMegaStoneItem());
     // TODO: Add Lopunnite
     // TODO: Add Lucarionite

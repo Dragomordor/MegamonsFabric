@@ -1,7 +1,7 @@
-// 1.20.1	2024-03-03T15:14:43.6748507	Ascension's Megamons/Tags for minecraft:block
-8dc400d53b96275841d58c729cbddd2ae8289175 data\minecraft\tags\blocks\mineable\pickaxe.json
+// 1.20.1	2024-03-08T13:56:03.6061563	Ascension's Megamons/Tags for minecraft:block
+a0e8447d58c0bdd555609e3cca49f4aaca180b9f data\minecraft\tags\blocks\mineable\pickaxe.json
 f064cd26a0670d5b93276f45e340f47ac9c05733 data\megamons\tags\blocks\geode_walls.json
-ad6b44297410b918f89605a1c3fdc3f52e8f6fe2 data\minecraft\tags\blocks\needs_diamond_tool.json
-ad6b44297410b918f89605a1c3fdc3f52e8f6fe2 data\megamons\tags\blocks\ore_megastones.json
+dc1e2e35756bc7955a94b058f18f3d135a02f3ae data\minecraft\tags\blocks\needs_diamond_tool.json
+dc1e2e35756bc7955a94b058f18f3d135a02f3ae data\megamons\tags\blocks\ore_megastones.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_stone_tool.json
 a71d64352f769f9d9af4909b6ba48bba8b74aaf1 data\minecraft\tags\blocks\needs_iron_tool.json

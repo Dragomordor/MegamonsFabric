@@ -117,6 +117,13 @@
 
     "cobblemon.species.megaglalie.name": "Glalie",
     "cobblemon.species.megaglalie.desc1": "The excess energy from Mega Evolution spilled over from its mouth, breaking its jaw. It spews endless blizzards.",
-    "cobblemon.species.megaglalie.desc2": "It envelops prey in its mouth, freezing them instantly. But its jaw is dislocated, so it’s unable to eat them."
+    "cobblemon.species.megaglalie.desc2": "It envelops prey in its mouth, freezing them instantly. But its jaw is dislocated, so it’s unable to eat them.",
 
+    "cobblemon.species.megascizor.name": "Scizor",
+    "cobblemon.species.megascizor.desc1": "The excess energy that bathes this Pokémon keeps it in constant danger of overflow. It can’t sustain a battle over long periods of time.",
+    "cobblemon.species.megascizor.desc2": "Due to the effects of Mega Evolution, its pincers have taken on a more diabolical form, ripping anything they pinch to shreds.",
+
+    "cobblemon.species.megamawile.name": "Mawile",
+    "cobblemon.species.megamawile.desc1": "It has an extremely vicious disposition. It grips prey in its two sets of jaws and tears them apart with raw power.",
+    "cobblemon.species.megamawile.desc2": "Its two sets of jaws thrash about violently as if they each had a will of their own. One gnash from them can turn a boulder to dust."
 }

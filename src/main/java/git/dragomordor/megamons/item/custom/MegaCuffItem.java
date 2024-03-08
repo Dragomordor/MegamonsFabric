@@ -88,6 +88,7 @@ public class MegaCuffItem extends PokemonUseItem{
             if (pokemon.getSpecies().equals(nonMegaSpecies)) {
                 int playerMegaCount = 0;
                 // Check if the current Mega Pokémon is in the player's Party
+
                 // Get list of all mega Pokémon
                 List<String> MegaPokemonToCheck = MegaSpeciesUtil.getMegaSpecies();
 

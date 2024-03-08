@@ -1,20 +1,18 @@
 {
   "implemented": true,
-  "name": "Mawile",
+  "name": "megamawile",
   "nationalPokedexNumber": 303,
   "primaryType": "steel",
   "secondaryType": "fairy",
   "abilities": [
-    "hypercutter",
-    "intimidate",
-    "h:sheerforce"
+    "hugepower"
   ],
   "baseStats": {
     "hp": 50,
-    "attack": 85,
-    "defence": 85,
+    "attack": 105,
+    "defence": 125,
     "special_attack": 55,
-    "special_defence": 55,
+    "special_defence": 95,
     "speed": 50
   },
   "catchRate": 45,

@@ -119,7 +119,9 @@ public class MegaSpeciesUtil {
         // TODO: Add Swampertite
     // Gen 4
         // TODO: Add Abomasite
-        // TODO: Add Galladite
+    // Galladite
+    public static String GalladitePreEvolution = "gallade";
+    public static String GalladitePostEvolution = "megagallade";
     // Garchompite
     public static String GarchompitePreEvolution = "garchomp";
     public static String GarchompitePostEvolution = "megagarchomp";
@@ -181,7 +183,7 @@ public class MegaSpeciesUtil {
         // TODO: Add Swampertite
         // Gen 4
         // TODO: Add Abomasite
-        // TODO: Add Galladite
+        MEGA_SPECIES.add(GalladitePostEvolution);
         MEGA_SPECIES.add(GarchompitePostEvolution);
         // TODO: Add Lopunnite
         // TODO: Add Lucarionite
@@ -300,7 +302,9 @@ public class MegaSpeciesUtil {
         // TODO: Add Swampertite
         // Gen 4
         // TODO: Add Abomasite
-        // TODO: Add Galladite
+        if (pokemonPostSpecies.equals(GalladitePostEvolution)) {
+            pokemonPreSpecies = GalladitePreEvolution;
+        }
         if (pokemonPostSpecies.equals(GarchompitePostEvolution)) {
             pokemonPreSpecies = GarchompitePreEvolution;
         }

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "cobblemon:citrine_ball"
+    },
+    "title": {
+      "translate": "advancements.megamons.all_gen2_stones.title"
+    },
+    "description": {
+      "translate": "advancements.megamons.all_gen2_stones.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "megamons:mega_cuff",
+  "criteria": {
+    "has_all_cut_megastones": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "megamons:gen2_01_ampharosite_stone": true,
+              "megamons:gen2_02_scizorite_stone": true,
+              "megamons:gen2_03_steelixite_stone": true,
+              "megamons:gen2_04_tyranitarite_stone": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

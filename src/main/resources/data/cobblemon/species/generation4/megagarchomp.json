@@ -1,12 +1,11 @@
 {
   "implemented": true,
-  "name": "Garchomp",
+  "name": "megagarchomp",
   "nationalPokedexNumber": 445,
   "primaryType": "dragon",
   "secondaryType": "ground",
   "abilities": [
-    "sandveil",
-    "h:roughskin"
+    "sandforce"
   ],
   "drops": {
     "amount": 2,
@@ -23,11 +22,11 @@
   },
   "baseStats": {
     "hp": 108,
-    "attack": 130,
-    "defence": 95,
-    "special_attack": 80,
-    "special_defence": 85,
-    "speed": 102
+    "attack": 170,
+    "defence": 115,
+    "special_attack": 120,
+    "special_defence": 95,
+    "speed": 92
   },
   "behaviour": {
     "moving": {

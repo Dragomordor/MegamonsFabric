@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "cobblemon:roseate_ball"
+    },
+    "title": {
+      "translate": "advancements.megamons.all_gen3_stones.title"
+    },
+    "description": {
+      "translate": "advancements.megamons.all_gen3_stones.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "megamons:mega_cuff",
+  "criteria": {
+    "has_all_cut_megastones": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "megamons:gen3_01_banettite_stone": true,
+              "megamons:gen3_02_gardevoirite_stone": true,
+              "megamons:gen3_03_glalitite_stone": true,
+              "megamons:gen3_04_mawilite_stone": true,
+              "megamons:gen3_05_sablenite_stone": true,
+              "megamons:gen3_06_sharpedonite_stone": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

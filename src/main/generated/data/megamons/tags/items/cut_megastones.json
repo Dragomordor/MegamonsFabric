@@ -17,15 +17,16 @@
     "megamons:cut_slowbronite",
     "megamons:cut_venusaurite",
     "megamons:cut_ampharosite",
+    "megamons:cut_scizorite",
+    "megamons:cut_steelixite",
+    "megamons:cut_tyranitarite",
     "megamons:cut_banettite",
-    "megamons:cut_garchompite",
     "megamons:cut_gardevoirite",
     "megamons:cut_glalitite",
     "megamons:cut_mawilite",
     "megamons:cut_sablenite",
-    "megamons:cut_scizorite",
     "megamons:cut_sharpedonite",
-    "megamons:cut_steelixite",
-    "megamons:cut_tyranitarite"
+    "megamons:cut_galladite",
+    "megamons:cut_garchompite"
   ]
 }

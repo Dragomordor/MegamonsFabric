@@ -1,0 +1,33 @@
+{
+  "name": "book.megamons_guide.entries.mega_pokemon_gen4.name",
+  "icon": "cobblemon:slate_ball",
+  "category": "megamons:mega_evolution",
+  "advancement": "megamons:gen4_megastone",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "book.megamons_guide.entries.mega_pokemon_gen4.text.page1"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_galladite",
+      "pokemon": [
+        "megamons:textures/patchouli/images/gen4/mega_gallade.png"
+      ],
+      "title": "book.megamons_guide.entries.mega_pokemon_gen4.galladite.image.title",
+      "border": "true",
+      "advancement": "megamons:gen4_01_galladite_stone"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_garchompite",
+      "pokemon": [
+          "megamons:textures/patchouli/images/gen4/mega_garchomp.png"
+      ],
+      "title": "book.megamons_guide.entries.mega_pokemon_gen4.garchompite.image.title",
+      "border": "true",
+      "advancement": "megamons:gen4_02_garchompite_stone"
+    }
+  ]
+}

@@ -132,7 +132,10 @@ public class HeldMegastoneMegaSpeciesUtil {
         // TODO: Add Swampertite
         // Gen 4
         // TODO: Add Abomasite
-        // TODO: Add Galladite
+        // Gallade
+        if (heldMegastone.equals(MegamonsItems.CUT_GALLADITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GalladitePreEvolution);
+        }
         // Garchomp
         if (heldMegastone.equals(MegamonsItems.CUT_GARCHOMPITE)) {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GarchompitePreEvolution);
@@ -277,7 +280,10 @@ public class HeldMegastoneMegaSpeciesUtil {
         // TODO: Add Swampertite
         // Gen 4
         // TODO: Add Abomasite
-        // TODO: Add Galladite
+        // Gallade
+        if (heldMegastone.equals(MegamonsItems.CUT_GALLADITE)) {
+            return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GalladitePostEvolution);
+        }
         // Garchomp
         if (heldMegastone.equals(MegamonsItems.CUT_GARCHOMPITE)) {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.GarchompitePostEvolution);

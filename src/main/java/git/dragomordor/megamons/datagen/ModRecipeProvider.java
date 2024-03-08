@@ -158,7 +158,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     // TODO: Add Swampertite
     // Gen 4
     // TODO: Add Abomasite
-    // TODO: Add Galladite
+    private static final List<ItemConvertible> ORE_SMELT_GALLADITE = List.of(
+//            MegamonsBlocks.ORE_GALLADITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_GALLADITE,
+            MegamonsBlocks.ORE_CRYSTAL_GALLADITE);
     private static final List<ItemConvertible> ORE_SMELT_GARCHOMPITE = List.of(
 //            MegamonsBlocks.ORE_GARCHOMPITE,
 //            MegamonsBlocks.ORE_DEEPSLATE_GARCHOMPITE,
@@ -257,7 +260,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         // TODO: Add Swampertite
         // Gen 4
         // TODO: Add Abomasite
-        // TODO: Add Galladite
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_GALLADITE, MegamonsItems.RAW_GALLADITE, 1);
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_GARCHOMPITE, MegamonsItems.RAW_GARCHOMPITE, 1);
         // TODO: Add Lopunnite
         // TODO: Add Lucarionite
@@ -316,7 +319,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         // TODO: Add Swampertite
         // Gen 4
         // TODO: Add Abomasite
-        // TODO: Add Galladite
+        offerSmelting(exporter, ORE_SMELT_GALLADITE, RecipeCategory.MISC, MegamonsItems.RAW_GALLADITE, 1.0F, 200, "megastones");
         offerSmelting(exporter, ORE_SMELT_GARCHOMPITE, RecipeCategory.MISC, MegamonsItems.RAW_GARCHOMPITE, 1.0F, 200, "megastones");
         // TODO: Add Lopunnite
         // TODO: Add Lucarionite
@@ -374,7 +377,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         // TODO: Add Swampertite
         // Gen 4
         // TODO: Add Abomasite
-        // TODO: Add Galladite
+        offerBlasting(exporter, ORE_SMELT_GALLADITE, RecipeCategory.MISC, MegamonsItems.RAW_GALLADITE, 1.0F, 100, "megastones");
         offerBlasting(exporter, ORE_SMELT_GARCHOMPITE, RecipeCategory.MISC, MegamonsItems.RAW_GARCHOMPITE, 1.0F, 100, "megastones");
         // TODO: Add Lopunnite
         // TODO: Add Lucarionite

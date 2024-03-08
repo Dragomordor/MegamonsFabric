@@ -24,40 +24,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        // Megastone Ores drop raw stones
-        // stone ores
-//        addDrop(MegamonsBlocks.ORE_AERODACTYLITE, megastoneOreDrops(MegamonsBlocks.ORE_AERODACTYLITE, MegamonsItems.RAW_AERODACTYLITE));
-//        addDrop(MegamonsBlocks.ORE_ALAKAZITE, megastoneOreDrops(MegamonsBlocks.ORE_ALAKAZITE, MegamonsItems.RAW_ALAKAZITE));
-//        addDrop(MegamonsBlocks.ORE_BEEDRILLITE, megastoneOreDrops(MegamonsBlocks.ORE_BEEDRILLITE, MegamonsItems.RAW_BEEDRILLITE));
-//        addDrop(MegamonsBlocks.ORE_BLASTOISINITE, megastoneOreDrops(MegamonsBlocks.ORE_BLASTOISINITE, MegamonsItems.RAW_BLASTOISINITE));
-//        addDrop(MegamonsBlocks.ORE_CHARIZARDITEX, megastoneOreDrops(MegamonsBlocks.ORE_CHARIZARDITEX, MegamonsItems.RAW_CHARIZARDITEX));
-//        addDrop(MegamonsBlocks.ORE_CHARIZARDITEY, megastoneOreDrops(MegamonsBlocks.ORE_CHARIZARDITEY, MegamonsItems.RAW_CHARIZARDITEY));
-//        addDrop(MegamonsBlocks.ORE_GENGARITE, megastoneOreDrops(MegamonsBlocks.ORE_GENGARITE, MegamonsItems.RAW_GENGARITE));
-//        addDrop(MegamonsBlocks.ORE_GYARADOSITE, megastoneOreDrops(MegamonsBlocks.ORE_GYARADOSITE, MegamonsItems.RAW_GYARADOSITE));
-//        addDrop(MegamonsBlocks.ORE_KANGASKHANITE, megastoneOreDrops(MegamonsBlocks.ORE_KANGASKHANITE, MegamonsItems.RAW_KANGASKHANITE));
-//        addDrop(MegamonsBlocks.ORE_MEWTWONITEX, megastoneOreDrops(MegamonsBlocks.ORE_MEWTWONITEX, MegamonsItems.RAW_MEWTWONITEX));
-//        addDrop(MegamonsBlocks.ORE_MEWTWONITEY, megastoneOreDrops(MegamonsBlocks.ORE_MEWTWONITEY, MegamonsItems.RAW_MEWTWONITEY));
-//        addDrop(MegamonsBlocks.ORE_PIDGEOTITE, megastoneOreDrops(MegamonsBlocks.ORE_PIDGEOTITE, MegamonsItems.RAW_PIDGEOTITE));
-//        addDrop(MegamonsBlocks.ORE_PINSIRITE, megastoneOreDrops(MegamonsBlocks.ORE_PINSIRITE, MegamonsItems.RAW_PINSIRITE));
-//        addDrop(MegamonsBlocks.ORE_SLOWBRONITE, megastoneOreDrops(MegamonsBlocks.ORE_SLOWBRONITE, MegamonsItems.RAW_SLOWBRONITE));
-//        addDrop(MegamonsBlocks.ORE_VENUSAURITE, megastoneOreDrops(MegamonsBlocks.ORE_VENUSAURITE, MegamonsItems.RAW_VENUSAURITE));
-//        // deepslate ores
-//        addDrop(MegamonsBlocks.ORE_DEEPSLATE_AERODACTYLITE, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_AERODACTYLITE, MegamonsItems.RAW_AERODACTYLITE));
-//        addDrop(MegamonsBlocks.ORE_DEEPSLATE_ALAKAZITE, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_ALAKAZITE, MegamonsItems.RAW_ALAKAZITE));
-//        addDrop(MegamonsBlocks.ORE_DEEPSLATE_BEEDRILLITE, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_BEEDRILLITE, MegamonsItems.RAW_BEEDRILLITE));
-//        addDrop(MegamonsBlocks.ORE_DEEPSLATE_BLASTOISINITE, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_BLASTOISINITE, MegamonsItems.RAW_BLASTOISINITE));
-//        addDrop(MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEX, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEX, MegamonsItems.RAW_CHARIZARDITEX));
-//        addDrop(MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEY, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEY, MegamonsItems.RAW_CHARIZARDITEY));
-//        addDrop(MegamonsBlocks.ORE_DEEPSLATE_GENGARITE, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_GENGARITE, MegamonsItems.RAW_GENGARITE));
-//        addDrop(MegamonsBlocks.ORE_DEEPSLATE_GYARADOSITE, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_GYARADOSITE, MegamonsItems.RAW_GYARADOSITE));
-//        addDrop(MegamonsBlocks.ORE_DEEPSLATE_KANGASKHANITE, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_KANGASKHANITE, MegamonsItems.RAW_KANGASKHANITE));
-//        addDrop(MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEX, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEX, MegamonsItems.RAW_MEWTWONITEX));
-//        addDrop(MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEY, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEY, MegamonsItems.RAW_MEWTWONITEY));
-//        addDrop(MegamonsBlocks.ORE_DEEPSLATE_PIDGEOTITE, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_PIDGEOTITE, MegamonsItems.RAW_PIDGEOTITE));
-//        addDrop(MegamonsBlocks.ORE_DEEPSLATE_PINSIRITE, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_PINSIRITE, MegamonsItems.RAW_PINSIRITE));
-//        addDrop(MegamonsBlocks.ORE_DEEPSLATE_SLOWBRONITE, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_SLOWBRONITE, MegamonsItems.RAW_SLOWBRONITE));
-//        addDrop(MegamonsBlocks.ORE_DEEPSLATE_VENUSAURITE, megastoneOreDrops(MegamonsBlocks.ORE_DEEPSLATE_VENUSAURITE, MegamonsItems.RAW_VENUSAURITE));
-
+    // Megastone Ores drop raw stones
         // Crystal ores
         // Gen 1
         addDrop(MegamonsBlocks.ORE_CRYSTAL_AERODACTYLITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_AERODACTYLITE, MegamonsItems.RAW_AERODACTYLITE));
@@ -105,7 +72,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         // TODO: Add Swampertite
         // Gen 4
         // TODO: Add Abomasite
-        // TODO: Add Galladite
+        addDrop(MegamonsBlocks.ORE_CRYSTAL_GALLADITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_GALLADITE, MegamonsItems.RAW_GALLADITE));
         addDrop(MegamonsBlocks.ORE_CRYSTAL_GARCHOMPITE, megastoneOreDrops(MegamonsBlocks.ORE_CRYSTAL_GARCHOMPITE, MegamonsItems.RAW_GARCHOMPITE));
         // TODO: Add Lopunnite
         // TODO: Add Lucarionite

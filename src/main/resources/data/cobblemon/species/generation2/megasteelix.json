@@ -9,10 +9,10 @@
   ],
   "baseStats": {
     "hp": 75,
-    "attack": 85,
-    "defence": 200,
+    "attack": 125,
+    "defence": 230,
     "special_attack": 55,
-    "special_defence": 65,
+    "special_defence": 95,
     "speed": 30
   },
   "catchRate": 25,

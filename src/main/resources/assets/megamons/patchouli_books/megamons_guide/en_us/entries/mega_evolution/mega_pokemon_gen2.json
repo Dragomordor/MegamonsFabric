@@ -1,0 +1,53 @@
+{
+  "name": "book.megamons_guide.entries.mega_pokemon_gen2.name",
+  "icon": "cobblemon:citrine_ball",
+  "category": "megamons:mega_evolution",
+  "advancement": "megamons:gen2_megastone",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "book.megamons_guide.entries.mega_pokemon_gen2.text.page1"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_ampharosite",
+      "pokemon": [
+        "megamons:textures/patchouli/images/gen2/mega_ampharos.png"
+      ],
+      "title": "book.megamons_guide.entries.mega_pokemon_gen2.ampharosite.image.title",
+      "border": "true",
+      "advancement": "megamons:gen2_01_ampharosite_stone"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_scizorite",
+        "pokemon": [
+            "megamons:textures/patchouli/images/gen2/mega_scizor.png"
+        ],
+        "title": "book.megamons_guide.entries.mega_pokemon_gen2.scizorite.image.title",
+        "border": "true",
+        "advancement": "megamons:gen2_02_scizorite_stone"
+    },
+    {
+        "type": "megamons:mega_pokemon",
+        "showcase": "megamons:cut_steelixite",
+            "pokemon": [
+                "megamons:textures/patchouli/images/gen2/mega_steelix.png"
+            ],
+            "title": "book.megamons_guide.entries.mega_pokemon_gen2.steelixite.image.title",
+            "border": "true",
+            "advancement": "megamons:gen2_03_steelixite_stone"
+        },
+        {
+        "type": "megamons:mega_pokemon",
+        "showcase": "megamons:cut_tyranitarite",
+            "pokemon": [
+                "megamons:textures/patchouli/images/gen2/mega_tyranitar.png"
+            ],
+            "title": "book.megamons_guide.entries.mega_pokemon_gen2.tyranitarite.image.title",
+            "border": "true",
+            "advancement": "megamons:gen2_04_tyranitarite_stone"
+    }
+  ]
+}

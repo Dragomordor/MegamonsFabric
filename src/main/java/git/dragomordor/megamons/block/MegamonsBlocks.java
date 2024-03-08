@@ -15,71 +15,6 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class MegamonsBlocks {
-    // Megastone ore blocks
-//    // Stone Ore - Megastones
-//    public static final Block ORE_AERODACTYLITE = registerBlock("aerodactylite_stone_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(4.5F,3.0F), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_ALAKAZITE = registerBlock("alakazite_stone_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(4.5F,3.0F), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_BEEDRILLITE = registerBlock("beedrillite_stone_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(4.5F,3.0F), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_BLASTOISINITE = registerBlock("blastoisinite_stone_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(4.5F,3.0F), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_CHARIZARDITEX = registerBlock("charizarditex_stone_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(4.5F,3.0F), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_CHARIZARDITEY = registerBlock("charizarditey_stone_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(4.5F,3.0F), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_GENGARITE = registerBlock("gengarite_stone_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(4.5F,3.0F), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_GYARADOSITE = registerBlock("gyaradosite_stone_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(4.5F,3.0F), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_KANGASKHANITE = registerBlock("kangaskhanite_stone_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(4.5F,3.0F), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_MEWTWONITEX = registerBlock("mewtwonitex_stone_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(4.5F,3.0F), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_MEWTWONITEY = registerBlock("mewtwonitey_stone_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(4.5F,3.0F), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_PIDGEOTITE = registerBlock("pidgeotite_stone_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(4.5F,3.0F), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_PINSIRITE = registerBlock("pinsirite_stone_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(4.5F,3.0F), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_SLOWBRONITE = registerBlock("slowbronite_stone_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(4.5F,3.0F), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_VENUSAURITE = registerBlock("venusaurite_stone_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(4.5F,3.0F), UniformIntProvider.create(5,9)));
-//
-//    // Deepslate Ore - Megastones
-//    public static final Block ORE_DEEPSLATE_AERODACTYLITE = registerBlock("aerodactylite_deepslate_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F).luminance(8), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_DEEPSLATE_ALAKAZITE = registerBlock("alakazite_deepslate_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F).luminance(8), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_DEEPSLATE_BEEDRILLITE = registerBlock("beedrillite_deepslate_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F).luminance(8), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_DEEPSLATE_BLASTOISINITE = registerBlock("blastoisinite_deepslate_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F).luminance(8), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_DEEPSLATE_CHARIZARDITEX = registerBlock("charizarditex_deepslate_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F).luminance(8), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_DEEPSLATE_CHARIZARDITEY = registerBlock("charizarditey_deepslate_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F).luminance(8), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_DEEPSLATE_GENGARITE = registerBlock("gengarite_deepslate_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F).luminance(8), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_DEEPSLATE_GYARADOSITE = registerBlock("gyaradosite_deepslate_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F).luminance(8), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_DEEPSLATE_KANGASKHANITE = registerBlock("kangaskhanite_deepslate_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F).luminance(8), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_DEEPSLATE_MEWTWONITEX = registerBlock("mewtwonitex_deepslate_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F).luminance(8), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_DEEPSLATE_MEWTWONITEY = registerBlock("mewtwonitey_deepslate_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F).luminance(8), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_DEEPSLATE_PIDGEOTITE = registerBlock("pidgeotite_deepslate_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F).luminance(8), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_DEEPSLATE_PINSIRITE = registerBlock("pinsirite_deepslate_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F).luminance(8), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_DEEPSLATE_SLOWBRONITE = registerBlock("slowbronite_deepslate_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F).luminance(8), UniformIntProvider.create(5,9)));
-//    public static final Block ORE_DEEPSLATE_VENUSAURITE = registerBlock("venusaurite_deepslate_ore",
-//            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F).luminance(8), UniformIntProvider.create(5,9)));
-
     // Crystal Ore - Megastone
         // Gen 1
     public static final Block ORE_CRYSTAL_AERODACTYLITE = registerBlock("aerodactylite_crystal_ore",
@@ -152,7 +87,8 @@ public class MegamonsBlocks {
         // TODO: Add Swampertite
         // Gen 4
         // TODO: Add Abomasite
-        // TODO: Add Galladite
+    public static final Block ORE_CRYSTAL_GALLADITE = registerBlock("galladite_crystal_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F).luminance(8), UniformIntProvider.create(5,9)));
     public static final Block ORE_CRYSTAL_GARCHOMPITE = registerBlock("garchompite_crystal_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F).luminance(8), UniformIntProvider.create(5,9)));
         // TODO: Add Lopunnite

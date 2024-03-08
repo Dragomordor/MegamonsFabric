@@ -63,7 +63,7 @@ public class ModConfiguredFeatures {
     // TODO: Add Swampertite
     // Gen 4
     // TODO: Add Abomasite
-    // TODO: Add Galladite
+    public static final RegistryKey<ConfiguredFeature<?,?>> GALLADITE_GEODE_KEY = registerKey("galladite_geode") ;
     public static final RegistryKey<ConfiguredFeature<?,?>> GARCHOMPITE_GEODE_KEY = registerKey("garchompite_geode") ;
     // TODO: Add Lopunnite
     // TODO: Add Lucarionite
@@ -791,8 +791,33 @@ public class ModConfiguredFeatures {
         // TODO: Add Swampertite
         // Gen 4
         // TODO: Add Abomasite
-        // TODO: Add Galladite
-
+        // Galladite
+        register(context, GALLADITE_GEODE_KEY, Feature.GEODE, new GeodeFeatureConfig(
+                new GeodeLayerConfig(
+                        BlockStateProvider.of(Blocks.AIR), // filling
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_GEODE_BLOCK), // inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ORE_CRYSTAL_GALLADITE), //alternate inner layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // middle layer
+                        BlockStateProvider.of(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK), // outer layer
+                        List.of( // inner blocks
+                                MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_DUSK_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_FIRE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_ICE_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_LEAF_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_MOON_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SHINY_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_SUN_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_THUNDER_STONE_ORE.getDefaultState(),
+                                MegamonsBlocks.CRYSTAL_WATER_STONE_ORE.getDefaultState()
+                        ),
+                        BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
+                new GeodeLayerThicknessConfig(1.0D, 2.8D, 2.9D, 3.9D),
+                new GeodeCrackConfig(0.3D, 1.0D, 1),
+                0.025D, 0.0025D,
+                false, UniformIntProvider.create(4, 5),
+                UniformIntProvider.create(3, 4), UniformIntProvider.create(1, 2),
+                -16, 16, 0.05D, 1));
         // Garchompite
         register(context, GARCHOMPITE_GEODE_KEY, Feature.GEODE, new GeodeFeatureConfig(
                 new GeodeLayerConfig(

@@ -71,7 +71,7 @@ public class MegamonsItemGroups {
                         // TODO: Add Swampertite
                         // Gen 4
                         // TODO: Add Abomasite
-                        // TODO: Add Galladite
+                        entries.add(MegamonsItems.RAW_GALLADITE);
                         entries.add(MegamonsItems.RAW_GARCHOMPITE);
                         // TODO: Add Lopunnite
                         // TODO: Add Lucarionite
@@ -129,7 +129,7 @@ public class MegamonsItemGroups {
                         // TODO: Add Swampertite
                         // Gen 4
                         // TODO: Add Abomasite
-                        // TODO: Add Galladite
+                        entries.add(MegamonsItems.CUT_GALLADITE);
                         entries.add(MegamonsItems.CUT_GARCHOMPITE);
                         // TODO: Add Lopunnite
                         // TODO: Add Lucarionite
@@ -140,45 +140,11 @@ public class MegamonsItemGroups {
                         // Gen 7+
 
 
-                    // Blocks
-//                        // Stone ore
-//                        entries.add(MegamonsBlocks.ORE_AERODACTYLITE);
-//                        entries.add(MegamonsBlocks.ORE_ALAKAZITE);
-//                        entries.add(MegamonsBlocks.ORE_BEEDRILLITE);
-//                        entries.add(MegamonsBlocks.ORE_BLASTOISINITE);
-//                        entries.add(MegamonsBlocks.ORE_CHARIZARDITEX);
-//                        entries.add(MegamonsBlocks.ORE_CHARIZARDITEY);
-//                        entries.add(MegamonsBlocks.ORE_GENGARITE);
-//                        entries.add(MegamonsBlocks.ORE_GYARADOSITE);
-//                        entries.add(MegamonsBlocks.ORE_KANGASKHANITE);
-//                        entries.add(MegamonsBlocks.ORE_MEWTWONITEX);
-//                        entries.add(MegamonsBlocks.ORE_MEWTWONITEY);
-//                        entries.add(MegamonsBlocks.ORE_PIDGEOTITE);
-//                        entries.add(MegamonsBlocks.ORE_PINSIRITE);
-//                        entries.add(MegamonsBlocks.ORE_SLOWBRONITE);
-//                        entries.add(MegamonsBlocks.ORE_VENUSAURITE);
-//                        // Deepslate ore
-//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_AERODACTYLITE);
-//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_ALAKAZITE);
-//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_BEEDRILLITE);
-//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_BLASTOISINITE);
-//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEX);
-//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEY);
-//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_GENGARITE);
-//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_GYARADOSITE);
-//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_KANGASKHANITE);
-//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEX);
-//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEY);
-//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_PIDGEOTITE);
-//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_PINSIRITE);
-//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_SLOWBRONITE);
-//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_VENUSAURITE);
-                    // Crystal blocks
+                // Blocks
                         // Megastone Geode wall
                         entries.add(MegamonsBlocks.ANISTARITE_GEODE_BLOCK);
                         entries.add(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK);
-
-                        // Crystal ore
+                        // Crystal Megastone ore
                             // Gen 1
                         entries.add(MegamonsBlocks.ORE_CRYSTAL_AERODACTYLITE);
                         entries.add(MegamonsBlocks.ORE_CRYSTAL_ALAKAZITE);
@@ -219,10 +185,13 @@ public class MegamonsItemGroups {
                         // TODO: Add Metagrossite
                         // TODO: Add Rayquazite
                         entries.add(MegamonsBlocks.ORE_CRYSTAL_SABLENITE);
+                        // TODO: Add Salamencite
+                        // TODO: Add Sceptilite
+                        entries.add(MegamonsBlocks.ORE_CRYSTAL_SHARPEDONITE);
                         // TODO: Add Swampertite
                         // Gen 4
                         // TODO: Add Abomasite
-                        // TODO: Add Galladite
+                        entries.add(MegamonsBlocks.ORE_CRYSTAL_GALLADITE);
                         entries.add(MegamonsBlocks.ORE_CRYSTAL_GARCHOMPITE);
                         // TODO: Add Lopunnite
                         // TODO: Add Lucarionite

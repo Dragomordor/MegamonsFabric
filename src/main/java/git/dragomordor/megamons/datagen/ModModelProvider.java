@@ -17,40 +17,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
 
     // Blocks
-//        // Stone Ore -Megastone
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_AERODACTYLITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_ALAKAZITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_BEEDRILLITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_BLASTOISINITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_CHARIZARDITEX);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_CHARIZARDITEY);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_GENGARITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_GYARADOSITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_KANGASKHANITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_MEWTWONITEX);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_MEWTWONITEY);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_PIDGEOTITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_PINSIRITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_SLOWBRONITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_VENUSAURITE);
-//        // Deepslate Ore -Megastone
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_AERODACTYLITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_ALAKAZITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_BEEDRILLITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_BLASTOISINITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEX);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEY);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_GENGARITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_GYARADOSITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_KANGASKHANITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEX);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEY);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_PIDGEOTITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_PINSIRITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_SLOWBRONITE);
-//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_VENUSAURITE);
-
-        // Crystal Ore -Megastone
+        // Crystal Ore - Megastone
         // Gen 1
         blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_CRYSTAL_AERODACTYLITE);
         blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_CRYSTAL_ALAKAZITE);
@@ -97,7 +64,7 @@ public class ModModelProvider extends FabricModelProvider {
         // TODO: Add Swampertite
         // Gen 4
         // TODO: Add Abomasite
-        // TODO: Add Galladite
+        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_CRYSTAL_GALLADITE);
         blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_CRYSTAL_GARCHOMPITE);
         // TODO: Add Lopunnite
         // TODO: Add Lucarionite
@@ -178,7 +145,7 @@ public class ModModelProvider extends FabricModelProvider {
         // TODO: Add Swampertite
         // Gen 4
         // TODO: Add Abomasite
-        // TODO: Add Galladite
+        itemModelGenerator.register(MegamonsItems.RAW_GALLADITE, Models.GENERATED);
         itemModelGenerator.register(MegamonsItems.RAW_GARCHOMPITE, Models.GENERATED);
         // TODO: Add Lopunnite
         // TODO: Add Lucarionite
@@ -236,7 +203,7 @@ public class ModModelProvider extends FabricModelProvider {
         // TODO: Add Swampertite
         // Gen 4
         // TODO: Add Abomasite
-        // TODO: Add Galladite
+        itemModelGenerator.register(MegamonsItems.CUT_GALLADITE, Models.GENERATED);
         itemModelGenerator.register(MegamonsItems.CUT_GARCHOMPITE, Models.GENERATED);
         // TODO: Add Lopunnite
         // TODO: Add Lucarionite

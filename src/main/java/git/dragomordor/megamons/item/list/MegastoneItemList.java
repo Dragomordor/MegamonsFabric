@@ -57,7 +57,7 @@ public class MegastoneItemList {
         // TODO: Add Swampertite
         // Gen 4
         // TODO: Add Abomasite
-        // TODO: Add Galladite
+        cutMegastoneItemList.add(MegamonsItems.CUT_GALLADITE);
         cutMegastoneItemList.add(MegamonsItems.CUT_GARCHOMPITE);
         // TODO: Add Lopunnite
         // TODO: Add Lucarionite
