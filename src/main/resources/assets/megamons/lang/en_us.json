@@ -122,6 +122,7 @@
   "message.pokemonuseitem.notapokemon": "Not a Pokémon",
   "message.pokemonuseitem.notyourpokemon": "Not your Pokémon",
 
+  "message.megacuffitem.nohelditem": "No Held Item",
   "message.megacuffitem.notamegastone": "Held Item is not Megastone",
   "message.megacuffitem.megastonehasnopokemon": "Megastone has no associated Pokémon",
   "message.megacuffitem.nomegasallowed": "No Mega Pokémon Allowed!",

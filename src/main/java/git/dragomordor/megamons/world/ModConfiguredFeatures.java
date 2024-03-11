@@ -74,7 +74,6 @@ public class ModConfiguredFeatures {
     // Gen 7+
 
 
-// Register ore json files
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
     // Geodes
     // Gen 1

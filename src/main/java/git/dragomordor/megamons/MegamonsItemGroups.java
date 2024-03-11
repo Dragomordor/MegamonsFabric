@@ -17,9 +17,8 @@ public class MegamonsItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup."+MegamonsMod.MODID))
                     .icon(() -> new ItemStack(MegamonsItems.KEY_STONE)).entries((displayContext, entries) -> {
 
-                        // Items
-//                        // Metal detector
-//                        entries.add(MegamonsItems.METAL_DETECTOR);
+                    // Items
+
                         // KeyStoneItem
                         entries.add(MegamonsItems.KEY_STONE);
                         // MegaCuffItem

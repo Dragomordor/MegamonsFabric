@@ -34,7 +34,7 @@
         "walkSpeed": 0.55
       },
       "fly": {
-        "canFly": true
+        "canFly": false
       }
     }
   },
