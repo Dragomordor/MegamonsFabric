@@ -23,16 +23,6 @@
           "bedrock(megacharizardx, ground_walk)"
         ]
       },
-      "sleeping": {
-        "poseName": "sleeping",
-        "transformTicks": 10,
-        "poseTypes": [
-          "SLEEP"
-        ],
-        "animations": [
-          "bedrock(megacharizardx, sleep)"
-        ]
-      },
       "hovering": {
         "poseName": "hovering",
         "transformTicks": 10,
@@ -46,7 +36,7 @@
         "transformTicks": 10,
         "poseTypes": ["FLY"],
         "animations": [
-          "bedrock(megacharizardx, air_fly)"
+          "bedrock(megacharizardx, air_idle)"
         ]
       }
     }

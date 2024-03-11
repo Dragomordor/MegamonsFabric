@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "megamons:cut_mawilite"
+    },
+    "title": {
+      "translate": "advancements.megamons.mawilite_stone.title"
+    },
+    "description": {
+      "translate": "advancements.megamons.mawilite_stone.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "megamons:gen3_megastone",
+  "criteria": {
+    "has_cut_mawilite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megamons:cut_mawilite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_mawilite"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

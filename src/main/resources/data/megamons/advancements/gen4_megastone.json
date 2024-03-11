@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "megamons:cut_galladite"
+    },
+    "title": {
+      "translate": "advancements.megamons.gen4_megastone.title"
+    },
+    "description": {
+      "translate": "advancements.megamons.gen4_megastone.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "megamons:mega_ore_or_stone",
+
+  "criteria": {
+    "has_any_gen4_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "megamons:gen4_cut_megastones"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_any_gen4_stone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

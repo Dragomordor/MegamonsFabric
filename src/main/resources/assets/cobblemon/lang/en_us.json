@@ -39,9 +39,9 @@
     "cobblemon.species.megasteelix.desc1": "It’s said that if an ONIX lives for 100 years, its composition becomes diamondlike as it evolves into a STEELIX.",
     "cobblemon.species.megasteelix.desc2": "The iron it ingested with the soil it swallowed transformed its body and made it harder than diamonds.",
 
-    "cobblemon.species.megascizor.name": "Scizor",
-    "cobblemon.species.megascizor.desc1": "The excess energy that bathes this Pokémon keeps it in constant danger of overflow. It can’t sustain a battle over long periods of time.",
-    "cobblemon.species.megascizor.desc2": "Due to the effects of Mega Evolution, its pincers have taken on a more diabolical form, ripping anything they pinch to shreds.",
+    "cobblemon.species.megamegagallade.name": "Scizor",
+    "cobblemon.species.megamegagallade.desc1": "The excess energy that bathes this Pokémon keeps it in constant danger of overflow. It can’t sustain a battle over long periods of time.",
+    "cobblemon.species.megamegagallade.desc2": "Due to the effects of Mega Evolution, its pincers have taken on a more diabolical form, ripping anything they pinch to shreds.",
 
     "cobblemon.species.megagengar.name": "Gengar",
     "cobblemon.species.megagengar.desc1": "Gengar’s relationships are warped. It has no interest in opponents unless it perceives them as prey.",
@@ -97,5 +97,33 @@
 
     "cobblemon.species.megagarchomp.name": "Garchomp",
     "cobblemon.species.megagarchomp.desc1": "Excess energy melted its arms and wings, transforming them into giant scythes.",
-    "cobblemon.species.megagarchomp.desc2": "Its vaunted wings become scythes, sending it mad with rage. It swings its scythes wildly and slices the ground to pieces."
+    "cobblemon.species.megagarchomp.desc2": "Its vaunted wings become scythes, sending it mad with rage. It swings its scythes wildly and slices the ground to pieces.",
+
+    "cobblemon.species.megabanette.name": "Banette",
+    "cobblemon.species.megabanette.desc1": "Extraordinary energy amplifies its cursing power to such an extent that it can’t help but curse its own Trainer.",
+    "cobblemon.species.megabanette.desc2": "Mega Evolution increases its vindictiveness, and the cursing power that was held back by its zipper comes spilling out.",
+
+    "cobblemon.species.megatyranitar.name": "Tyranitar",
+    "cobblemon.species.megatyranitar.desc1": "Due to the colossal power poured into it, this Pokémon’s back split right open. Its destructive instincts are the only thing keeping it moving.",
+    "cobblemon.species.megatyranitar.desc2": "The effects of Mega Evolution make it more ferocious than ever. It’s unclear whether it can even hear its Trainer’s orders.",
+
+    "cobblemon.species.megagardevoir.name": "Gardevoir",
+    "cobblemon.species.megagardevoir.desc1": "Gardevoir has the ability to read the future. If it sensesimpending danger to its Trainer, this Pokémon is saidto unleash its psychokinetic energy at full power.",
+    "cobblemon.species.megagardevoir.desc2": "Gardevoir has the psychokinetic power to distort thedimensions and create a small black hole. This Pokémonwill try to protect its Trainer even at the risk of its own life.",
+
+    "cobblemon.species.megagallade.name": "Gallade",
+    "cobblemon.species.megagallade.desc1": "Because it can sense what its foe is thinking, its attacks burst out first, fast, and fierce.",
+    "cobblemon.species.megagallade.desc2": "A master of courtesy and swordsmanship, it fightsusing extending swords on its elbows.",
+
+    "cobblemon.species.megaglalie.name": "Glalie",
+    "cobblemon.species.megaglalie.desc1": "The excess energy from Mega Evolution spilled over from its mouth, breaking its jaw. It spews endless blizzards.",
+    "cobblemon.species.megaglalie.desc2": "It envelops prey in its mouth, freezing them instantly. But its jaw is dislocated, so it’s unable to eat them.",
+
+    "cobblemon.species.megascizor.name": "Scizor",
+    "cobblemon.species.megascizor.desc1": "The excess energy that bathes this Pokémon keeps it in constant danger of overflow. It can’t sustain a battle over long periods of time.",
+    "cobblemon.species.megascizor.desc2": "Due to the effects of Mega Evolution, its pincers have taken on a more diabolical form, ripping anything they pinch to shreds.",
+
+    "cobblemon.species.megamawile.name": "Mawile",
+    "cobblemon.species.megamawile.desc1": "It has an extremely vicious disposition. It grips prey in its two sets of jaws and tears them apart with raw power.",
+    "cobblemon.species.megamawile.desc2": "Its two sets of jaws thrash about violently as if they each had a will of their own. One gnash from them can turn a boulder to dust."
 }

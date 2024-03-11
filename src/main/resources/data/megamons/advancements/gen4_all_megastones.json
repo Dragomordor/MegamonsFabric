@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "cobblemon:slate_ball"
+    },
+    "title": {
+      "translate": "advancements.megamons.all_gen4_stones.title"
+    },
+    "description": {
+      "translate": "advancements.megamons.all_gen4_stones.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "megamons:mega_cuff",
+  "criteria": {
+    "has_all_cut_megastones": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "megamons:gen4_01_galladite_stone": true,
+              "megamons:gen4_02_garchompite_stone": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

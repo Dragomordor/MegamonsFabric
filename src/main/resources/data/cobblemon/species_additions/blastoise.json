@@ -1,0 +1,10 @@
+{
+    "target": "cobblemon:blastoise",
+
+    "baseScale": 0.8,
+    "hitbox": {
+      "width": 1.1,
+      "height": 2.1,
+      "fixed": false
+    }
+  }

@@ -18,9 +18,6 @@
     "catchRate": 45,
     "maleRatio": 0.875,
     "shoulderMountable": false,
-    "features": [
-      "clone"
-    ],
     "baseExperienceYield": 267,
     "experienceGroup": "medium_slow",
     "eggCycles": 20,

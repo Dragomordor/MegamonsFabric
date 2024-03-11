@@ -1,0 +1,73 @@
+{
+  "name": "book.megamons_guide.entries.mega_pokemon_gen3.name",
+  "icon": "cobblemon:roseate_ball",
+  "category": "megamons:mega_evolution",
+  "advancement": "megamons:gen3_megastone",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "book.megamons_guide.entries.mega_pokemon_gen3.text.page1"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_banettite",
+      "pokemon": [
+        "megamons:textures/patchouli/images/gen3/mega_banette.png"
+      ],
+      "title": "book.megamons_guide.entries.mega_pokemon_gen3.banettite.image.title",
+      "border": "true",
+      "advancement": "megamons:gen3_01_banettite_stone"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_gardevoirite",
+      "pokemon": [
+        "megamons:textures/patchouli/images/gen3/mega_gardevoir.png"
+      ],
+      "title": "book.megamons_guide.entries.mega_pokemon_gen3.gardevoirite.image.title",
+      "border": "true",
+      "advancement": "megamons:gen3_02_gardevoirite_stone"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+        "showcase": "megamons:cut_glalitite",
+        "pokemon": [
+          "megamons:textures/patchouli/images/gen3/mega_glalie.png"
+        ],
+        "title": "book.megamons_guide.entries.mega_pokemon_gen3.glalitite.image.title",
+        "border": "true",
+        "advancement": "megamons:gen3_03_glalitite_stone"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_mawilite",
+      "pokemon": [
+        "megamons:textures/patchouli/images/gen3/mega_mawile.png"
+      ],
+      "title": "book.megamons_guide.entries.mega_pokemon_gen3.mawilite.image.title",
+      "border": "true",
+      "advancement": "megamons:gen3_04_mawilite_stone"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_sablenite",
+      "pokemon": [
+        "megamons:textures/patchouli/images/gen3/mega_sableye.png"
+      ],
+      "title": "book.megamons_guide.entries.mega_pokemon_gen3.sablenite.image.title",
+      "border": "true",
+      "advancement": "megamons:gen3_05_sablenite_stone"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_sharpedonite",
+      "pokemon": [
+        "megamons:textures/patchouli/images/gen3/mega_sharpedo.png"
+        ],
+        "title": "book.megamons_guide.entries.mega_pokemon_gen3.sharpedonite.image.title",
+        "border": "true",
+        "advancement": "megamons:gen3_06_sharpedonite_stone"
+    }
+  ]
+}

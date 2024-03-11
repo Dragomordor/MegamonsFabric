@@ -11,6 +11,14 @@
         "animations": [
           "bedrock(megaalakazam, ground_idle)"
         ]
+      },
+      "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": ["WALK"],
+        "animations": [
+          "bedrock(megaalakazam, ground_idle)"
+        ]
       }
     }
   }

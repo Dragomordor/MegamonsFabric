@@ -1,0 +1,10 @@
+{
+    "target": "cobblemon:charizard",
+
+    "baseScale": 1,
+    "hitbox": {
+      "width": 1,
+      "height": 2.1,
+      "fixed": false
+    }
+  }

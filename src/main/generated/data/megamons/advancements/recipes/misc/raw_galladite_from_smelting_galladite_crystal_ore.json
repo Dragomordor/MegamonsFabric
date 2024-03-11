@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_galladite_crystal_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megamons:galladite_crystal_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:raw_galladite_from_smelting_galladite_crystal_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_galladite_crystal_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:raw_galladite_from_smelting_galladite_crystal_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

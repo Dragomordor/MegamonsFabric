@@ -1,0 +1,19 @@
+{
+	"species": "cobblemon:megagallade",
+	"order": 1,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:megagallade",
+			"model": "cobblemon:megagallade.geo",
+			"texture": "cobblemon:textures/pokemon/m_gallade/megagallade.png",
+			"layers": [
+				
+			]
+		},
+		{
+			"aspects": [ "shiny" ],
+			"texture": "cobblemon:textures/pokemon/m_gallade/megagallade_shiny.png"
+		}
+	]
+}

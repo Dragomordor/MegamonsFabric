@@ -32,8 +32,20 @@ public class ModTags {
         public static final TagKey<Item> ORE_MEGASTONES =
                 createTag("ore_megastones");
 
+        // Mega Stones
         public static final TagKey<Item> GEN1_CUT_MEGASTONES =
                 createTag("gen1_cut_megastones");
+        public static final TagKey<Item> GEN2_CUT_MEGASTONES =
+                createTag("gen2_cut_megastones");
+        public static final TagKey<Item> GEN3_CUT_MEGASTONES =
+                createTag("gen3_cut_megastones");
+        public static final TagKey<Item> GEN4_CUT_MEGASTONES =
+                createTag("gen4_cut_megastones");
+        public static final TagKey<Item> GEN5_CUT_MEGASTONES =
+                createTag("gen5_cut_megastones");
+        public static final TagKey<Item> GEN6_CUT_MEGASTONES =
+                createTag("gen6_cut_megastones");
+
 
         private static TagKey<Item> createTag(String name) {
             return  TagKey.of(RegistryKeys.ITEM, new Identifier(MegamonsMod.MODID, name));

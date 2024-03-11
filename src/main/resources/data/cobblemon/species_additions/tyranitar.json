@@ -1,0 +1,10 @@
+{
+    "target": "cobblemon:tyranitar",
+
+    "baseScale": 0.85,
+    "hitbox": {
+      "width": 2.5,
+      "height": 2.75,
+      "fixed": false
+    }
+  }

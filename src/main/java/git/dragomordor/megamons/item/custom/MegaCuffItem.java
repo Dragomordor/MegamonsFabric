@@ -34,7 +34,7 @@ public class MegaCuffItem extends PokemonUseItem{
 
         // has no held item
         if (pokemon.heldItemNoCopy$common().isEmpty()) {
-            player.sendMessage(Text.of("No Held Item"),true);
+            player.sendMessage(Text.translatable("message.megacuffitem.nohelditem"),true);
             return ActionResult.FAIL;
         }
         // Has held item
@@ -48,7 +48,7 @@ public class MegaCuffItem extends PokemonUseItem{
 
         // if held item is not megastone, return fail
         if (!isHeldItemMegaStone) {
-            player.sendMessage(Text.of("Held Item is not Megastone"),true);
+            player.sendMessage(Text.translatable("message.megacuffitem.notamegastone"),true);
             return ActionResult.FAIL;
         }
 
@@ -64,7 +64,7 @@ public class MegaCuffItem extends PokemonUseItem{
         // if either return weedle, megastone has no associated Pokémon
         Species weedle = PokemonSpecies.INSTANCE.getByName("weedle");
         if ((applicablePreEvolutionSpecies.equals(weedle)) || (applicablePostEvolutionSpecies.equals(weedle))) {
-            player.sendMessage(Text.of("Megastone has no associated Pokémon"),true);
+            player.sendMessage(Text.translatable("message.megacuffitem.megastonehasnopokemon"),true);
             return ActionResult.FAIL;
         }
 
@@ -79,14 +79,16 @@ public class MegaCuffItem extends PokemonUseItem{
             int numberOfMegaPokemonAllowed = ModConfig.getNumberOfMegaPokemonAllowed();
 
             if (numberOfMegaPokemonAllowed<=0) {
-                player.sendMessage(Text.of("No Mega Pokémon Allowed!"),true);
+                player.sendMessage(Text.translatable("message.megacuffitem.nomegasallowed"),true);
                 return ActionResult.FAIL;
             }
+
 
 
             if (pokemon.getSpecies().equals(nonMegaSpecies)) {
                 int playerMegaCount = 0;
                 // Check if the current Mega Pokémon is in the player's Party
+
                 // Get list of all mega Pokémon
                 List<String> MegaPokemonToCheck = MegaSpeciesUtil.getMegaSpecies();
 
@@ -101,7 +103,7 @@ public class MegaCuffItem extends PokemonUseItem{
                             // Pokémon in party is a mega Pokémon
                             playerMegaCount++; // increase number of Mega Pokémon detected
                             if (playerMegaCount>=numberOfMegaPokemonAllowed) {
-                                player.sendMessage(Text.of("You already have the maximum number of Mega Pokémon allowed."), true);
+                                player.sendMessage(Text.translatable("message.megacuffitem.maxmegas"),true);
                                 return ActionResult.FAIL;
                             }
                         }
@@ -115,7 +117,7 @@ public class MegaCuffItem extends PokemonUseItem{
                             // Mega Pokémon is in pc
                             playerMegaCount++;
                             if (playerMegaCount>=numberOfMegaPokemonAllowed) {
-                                player.sendMessage(Text.of("You already have the maximum number of Mega Pokémon allowed."), true);
+                                player.sendMessage(Text.translatable("message.megacuffitem.maxmegas"),true);
                                 return ActionResult.FAIL;
                             }
                         }
@@ -134,8 +136,7 @@ public class MegaCuffItem extends PokemonUseItem{
             }
 
         } else { // Pokémon is wrong species for megastone
-            //player.sendMessage(Text.of("Wrong Megastone for "+pokemon.getDisplayName().getString()),true);
-            player.sendMessage(Text.of("Wrong Megastone for Pokémon"),true);
+            player.sendMessage(Text.translatable("message.megacuffitem.wrongmegastone"),true);
             return ActionResult.FAIL;
         }
 
@@ -161,16 +162,17 @@ public class MegaCuffItem extends PokemonUseItem{
     public static void evolveToMega(Pokemon pokemon, Species nonMegaSpecies, Species MegaSpecies, PlayerEntity player) {
         pokemon.setSpecies(MegaSpecies);
         String capitalizedSpeciesName = nonMegaSpecies.getName().substring(0, 1).toUpperCase() + nonMegaSpecies.getName().substring(1);
-        player.sendMessage(Text.of(capitalizedSpeciesName + " transformed into Mega Form!"), true);
-        // pokemon.removeHeldItem(); // remove held item
+        player.sendMessage(Text.translatable("message.megacuffitem.transformtomega",capitalizedSpeciesName),true);
         player.playSound(CobblemonSounds.EVOLVING, SoundCategory.NEUTRAL, 1F, 1F);
+        pokemon.setTradeable(false);
     }
 
     public static void devolveFromMega(Pokemon pokemon, Species nonMegaSpecies, Species MegaSpecies, PlayerEntity player) {
         pokemon.setSpecies(nonMegaSpecies);
         String capitalizedSpeciesName = nonMegaSpecies.getName().substring(0, 1).toUpperCase() + nonMegaSpecies.getName().substring(1);
-        player.sendMessage(Text.of(capitalizedSpeciesName + " transformed into regular Form!"), true);
+        player.sendMessage(Text.translatable("message.megacuffitem.transformtononmega",capitalizedSpeciesName),true);
         player.playSound(CobblemonSounds.EVOLVING, SoundCategory.NEUTRAL, 1F, 0.1F);
+        pokemon.setTradeable(true);
     }
 
 }

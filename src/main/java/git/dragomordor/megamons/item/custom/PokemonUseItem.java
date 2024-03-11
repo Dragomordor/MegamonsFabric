@@ -11,6 +11,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
+import net.minecraft.text.TranslatableTextContent;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 
@@ -28,7 +29,7 @@ public abstract class PokemonUseItem extends Item {
 
         //checks whether target is Pokémon
         if (!(target instanceof PokemonEntity pokemonEntity)) {
-            player.sendMessage(Text.of("Not a Pokémon"),true);
+            player.sendMessage(Text.translatable("message.pokemonuseitem.notapokemon"),true);
             return ActionResult.FAIL;
         }
 
@@ -48,7 +49,7 @@ public abstract class PokemonUseItem extends Item {
 
         // when you are not Pokémon's owner, give error
         if (ownership != Ownership.OWNER) {
-            player.sendMessage(Text.of("Not your Pokémon"),true);
+            player.sendMessage(Text.translatable("message.pokemonuseitem.notyourpokemon"),true);
             return ActionResult.FAIL;
         }
 

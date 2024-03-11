@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sharpedo",
+      "poser": "cobblemon:megasharpedo",
       "model": "cobblemon:megasharpedo.geo",
       "texture": "cobblemon:textures/pokemon/m_sharpedo/megasharpedo.png",
       "layers": []

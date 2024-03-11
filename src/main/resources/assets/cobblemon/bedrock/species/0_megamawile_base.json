@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:megamawile",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:megamawile",
+      "model": "cobblemon:megamawile.geo",
+      "texture": "cobblemon:textures/pokemon/m_mawile/megamawile.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/m_mawile/megamawile_shiny.png"
+    }
+  ]
+}

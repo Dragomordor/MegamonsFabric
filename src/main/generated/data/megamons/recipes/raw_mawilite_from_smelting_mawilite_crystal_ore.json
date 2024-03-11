@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "megastones",
+  "ingredient": {
+    "item": "megamons:mawilite_crystal_ore"
+  },
+  "result": "megamons:raw_mawilite"
+}

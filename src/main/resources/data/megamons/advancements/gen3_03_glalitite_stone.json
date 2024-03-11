@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "megamons:cut_glalitite"
+    },
+    "title": {
+      "translate": "advancements.megamons.glalitite_stone.title"
+    },
+    "description": {
+      "translate": "advancements.megamons.glalitite_stone.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "megamons:gen3_megastone",
+  "criteria": {
+    "has_cut_glalitite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megamons:cut_glalitite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_glalitite"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,6 +1,7 @@
 {
   "implemented": true,
   "name": "megapinsir",
+  "nationalPokedexNumber": 127,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [

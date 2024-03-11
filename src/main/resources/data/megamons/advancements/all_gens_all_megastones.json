@@ -24,7 +24,10 @@
           "type_specific": {
             "type": "player",
             "advancements": {
-              "megamons:gen1_all_megastones": true
+              "megamons:gen1_all_megastones": true,
+              "megamons:gen2_all_megastones": true,
+              "megamons:gen3_all_megastones": true,
+              "megamons:gen4_all_megastones": true
             }
           }
         }

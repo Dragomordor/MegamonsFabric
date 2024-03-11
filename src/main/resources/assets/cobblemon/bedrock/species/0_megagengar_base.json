@@ -10,14 +10,21 @@
       "layers": [
         {
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/m_megagengar/gengar_emissives.png",
+          "texture": "cobblemon:textures/pokemon/m_megagengar/megagengar_emissives.png",
           "emissive": true
         }
       ]
     },
     {
       "aspects": [ "shiny" ],
-      "texture": "cobblemon:textures/pokemon/m_megagengar/megagengar_shiny.png"
+      "texture": "cobblemon:textures/pokemon/m_megagengar/megagengar_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/m_megagengar/megagengar_emissives.png",
+          "emissive": true
+        }
+      ]
     }
   ]
 }

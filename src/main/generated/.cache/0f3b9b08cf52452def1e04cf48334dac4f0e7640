@@ -1,7 +1,7 @@
-// 1.20.1	2024-02-11T21:31:16.782574	Ascension's Megamons/Tags for minecraft:block
-5a948dc31dcf6c8b58c25b1e007016a02b8a46ec data\megamons\tags\blocks\ore_megastones.json
-a71d64352f769f9d9af4909b6ba48bba8b74aaf1 data\minecraft\tags\blocks\needs_iron_tool.json
+// 1.20.1	2024-03-08T13:56:03.6061563	Ascension's Megamons/Tags for minecraft:block
+a0e8447d58c0bdd555609e3cca49f4aaca180b9f data\minecraft\tags\blocks\mineable\pickaxe.json
 f064cd26a0670d5b93276f45e340f47ac9c05733 data\megamons\tags\blocks\geode_walls.json
-5a948dc31dcf6c8b58c25b1e007016a02b8a46ec data\minecraft\tags\blocks\needs_diamond_tool.json
-5872258138b49885bdec0ef16d23f5ded4bbbe7f data\minecraft\tags\blocks\mineable\pickaxe.json
+dc1e2e35756bc7955a94b058f18f3d135a02f3ae data\minecraft\tags\blocks\needs_diamond_tool.json
+dc1e2e35756bc7955a94b058f18f3d135a02f3ae data\megamons\tags\blocks\ore_megastones.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_stone_tool.json
+a71d64352f769f9d9af4909b6ba48bba8b74aaf1 data\minecraft\tags\blocks\needs_iron_tool.json

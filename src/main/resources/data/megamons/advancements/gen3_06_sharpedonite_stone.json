@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "megamons:cut_sharpedonite"
+    },
+    "title": {
+      "translate": "advancements.megamons.sharpedonite_stone.title"
+    },
+    "description": {
+      "translate": "advancements.megamons.sharpedonite_stone.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "megamons:gen3_megastone",
+  "criteria": {
+    "has_cut_sharpedonite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megamons:cut_sharpedonite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_sharpedonite"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

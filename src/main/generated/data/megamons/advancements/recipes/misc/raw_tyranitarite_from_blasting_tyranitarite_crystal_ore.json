@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:raw_tyranitarite_from_blasting_tyranitarite_crystal_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tyranitarite_crystal_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megamons:tyranitarite_crystal_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tyranitarite_crystal_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:raw_tyranitarite_from_blasting_tyranitarite_crystal_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}
